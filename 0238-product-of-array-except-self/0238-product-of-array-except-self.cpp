@@ -11,25 +11,35 @@ public:
         }
 
         vector<int> ans(size,1);
-        vector<int> left_product(size,1);
-        vector<int> right_product(size,1);
+        // vector<int> left_product(size,1);
+        // vector<int> right_product(size,1);
 
-        left_product[0] = nums[0];
-        for(int i=1; i<size; i++){
-            left_product[i] = left_product[i-1] * nums[i];
-        }
+        // left_product[0] = nums[0];
+        // for(int i=1; i<size; i++){
+        //     left_product[i] = left_product[i-1] * nums[i];
+        // }
 
-        right_product[size-1] = nums[size-1];
-        for(int j=size-2; j>=0; j--){
-            right_product[j] = right_product[j+1] * nums[j];
-        }
+        // right_product[size-1] = nums[size-1];
+        // for(int j=size-2; j>=0; j--){
+        //     right_product[j] = right_product[j+1] * nums[j];
+        // }
         
-        if(size >= 3){
-            ans[0] = right_product[1];
-            ans[size-1] = left_product[size-2];
-            for(int i=1; i<size-1; i++){
-                ans[i] = left_product[i-1] * right_product[i+1];
-            }
+        // if(size >= 3){
+        //     ans[0] = right_product[1];
+        //     ans[size-1] = left_product[size-2];
+        //     for(int i=1; i<size-1; i++){
+        //         ans[i] = left_product[i-1] * right_product[i+1];
+        //     }
+        // }
+        int prefix = 1;
+        for(int i=0; i<size; i++){
+            ans[i] *= prefix;
+            prefix *= nums[i];
+        }
+        int postfix = 1;
+        for(int i=size-1; i>=0; i--){
+            ans[i] *= postfix;
+            postfix *= nums[i];
         }
         return ans;
     }
