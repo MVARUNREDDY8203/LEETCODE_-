@@ -10,14 +10,24 @@
  */
 class Solution {
 public:
-    int total_nodes(ListNode* head){
-        return head ? 1 + total_nodes(head->next) : 0;
+    //tortoise and hare algo
+    ListNode* middleNode(ListNode* head){
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(fast && fast->next){
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+        return slow;
     }
-    ListNode* mN_util(ListNode* head, int rem){
-        return (rem > 0) ? mN_util(head->next , rem-1) : head; 
-    }
-    ListNode* middleNode(ListNode* head) {
-        int tn = total_nodes(head);
-        return mN_util(head, tn/2);
-    }
+    // int total_nodes(ListNode* head){
+    //     return head ? 1 + total_nodes(head->next) : 0;
+    // }
+    // ListNode* mN_util(ListNode* head, int rem){
+    //     return (rem > 0) ? mN_util(head->next , rem-1) : head; 
+    // }
+    // ListNode* middleNode(ListNode* head) {
+    //     int tn = total_nodes(head);
+    //     return mN_util(head, tn/2);
+    // }
 };
