@@ -13,6 +13,7 @@ public:
                 loc_sum -= nums[i-k];
                 ump[nums[i-k]]--;
                 if(ump[nums[i-k]] < 1) ump.erase(nums[i-k]);
+
             }
 
             if(ump.size() >= m){
