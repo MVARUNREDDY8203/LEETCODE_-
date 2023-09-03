@@ -5,8 +5,8 @@ public:
         int n = nums.size();
         long long int max_sum = 0;
         long long int loc_sum = 0;
-        queue<long long int> que;
-        unordered_map<long long int, int> mp;
+        queue<int> que;
+        unordered_map<int, int> mp;
         
         for(int i = 0; i<n; i++){
 
@@ -14,7 +14,6 @@ public:
             mp[nums[i]]++;
             que.push(nums[i]);
 
-            cout<<"i = "<<i<<" loc_sum = "<<loc_sum<<" max_sum = "<<max_sum<<endl;
             if(que.size() > k){
                 mp[que.front()]--;
                 if(mp[que.front()] < 1) mp.erase(que.front());
