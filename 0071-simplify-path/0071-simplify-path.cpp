@@ -11,7 +11,6 @@ public:
             path += raw_path[i];
         }
         path += "/";
-        cout<<path<<endl;
 
         for(int i=0; i<path.size(); i++){
 
@@ -25,7 +24,6 @@ public:
                     temp = "";
                     continue;
                 }
-
                 if(temp != "") dque.push_back(temp);
                 temp = "";
                 continue;
@@ -36,7 +34,6 @@ public:
         
         if(dque.empty()) return "/";
         while(!dque.empty()){
-            cout<<dque.front()<<" ";
             ans+="/"+dque.front();
             dque.pop_front();
         }
