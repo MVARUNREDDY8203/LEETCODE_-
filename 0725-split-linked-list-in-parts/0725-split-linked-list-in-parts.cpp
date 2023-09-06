@@ -28,15 +28,12 @@ public:
         vector<ListNode*> vec(k, NULL);
 
         ListNode* curr = head;
-        ListNode* nn = head;
         int index = 0;
 
         if(n/k < 1){
-            while(nn != NULL){
-                curr = nn;
+            while(curr != NULL){
                 vec[index++] = curr;
-                nn = curr->next;
-                curr->next = NULL;
+                curr = splitter(curr, 1);
             }
             return vec;
         }
