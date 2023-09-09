@@ -11,35 +11,54 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        map<int, int> mp; // mp<val, count>
-        map<int, ListNode*> addr; // mp<val, addr>
+        if(head == NULL || head->next == NULL) return head;
 
+        ListNode* dummy = new ListNode(200, head);
+        ListNode* prev = dummy;
         ListNode* curr = head;
+        int curr_val = head->val;
         while (curr) {
-            mp[curr->val]++;
-            addr[curr->val] = curr;
-            curr = curr->next;
-        }
-
-        
-        for (auto i: mp) {
-            if (i.second > 1) {
-                addr.erase(i.first);
+            if (curr->next && curr_val == curr->next->val) {
+                while (curr && curr->val == curr_val) {
+                    curr = curr->next;
+                }
+                prev->next = curr;
+                if(curr) curr_val = curr->val;
+                continue;
             }
-        }
-        // for (auto i: addr) {
-        //     cout<<"i.first "<<i.first<<endl;
-        // }
-
-        ListNode* dummy = new ListNode(200);
-        curr = dummy;
-
-        for (auto i: addr) {
-            curr->next = i.second;
             curr = curr->next;
+            if(curr) curr_val = curr->val;
+            prev = prev->next;
         }
-        curr->next = NULL;
-
         return dummy->next;
     }
 };
+// ListNode* deleteDuplicates(ListNode* head) {
+//     map<int, int> mp; // mp<val, count>
+//     map<int, ListNode*> addr; // mp<val, addr>
+
+//     ListNode* curr = head;
+//     while (curr) {
+//         mp[curr->val]++;
+//         addr[curr->val] = curr;
+//         curr = curr->next;
+//     }
+
+    
+//     for (auto i: mp) {
+//         if (i.second > 1) {
+//             addr.erase(i.first);
+//         }
+//     }
+
+//     ListNode* dummy = new ListNode(200);
+//     curr = dummy;
+
+//     for (auto i: addr) {
+//         curr->next = i.second;
+//         curr = curr->next;
+//     }
+//     curr->next = NULL;
+
+//     return dummy->next;
+// }
