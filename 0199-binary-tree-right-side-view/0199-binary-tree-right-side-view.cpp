@@ -11,8 +11,6 @@
  */
 class Solution {
 public:
-    
-
     vector<int> rightSideView(TreeNode* root) {
         if (!root) return {};
 
@@ -29,7 +27,7 @@ public:
             lvls.push_back(temp);
             i++;
         }
-        
+
         vector<int> ans;
         for (auto i: lvls) {
             ans.push_back(i.back()->val);
