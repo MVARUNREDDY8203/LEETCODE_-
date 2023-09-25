@@ -1,38 +1,55 @@
 class Solution {
 public:
-    vector<vector<int>> all_permutations;
-    vector<unordered_set<int>> ap_ust;
-    
-    void ap_util(vector<int> &nums, vector<int> curr, unordered_set<int> ust){
-        for (auto i: curr) {
-            cout<<i<<" ";
-        }
-        cout<<endl;
-        if (curr.size() == nums.size()) {
-            all_permutations.push_back(curr);
+    vector<vector<int>> ans;
+    void ap_util(vector<int> &nums, int i, int n) {
+        if (i == n) {
+            ans.push_back(nums);
             return;
         }
-        for (auto i: nums) {
-            if (ust.find(i) != ust.end()) continue;
-            vector<int> temp = curr;
-            temp.push_back(i);
-            unordered_set<int> temp_ust = ust;
-            temp_ust.insert(i);
-            ap_util(nums, temp, temp_ust);
+        for (int j=i; j<=n; j++) {
+            swap(nums[j], nums[i]);
+            ap_util(nums, i+1, n);
+            swap(nums[j], nums[i]);
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
-        for (auto i: nums) {
-            vector<int> temp;
-            unordered_set<int> ust;
-            temp.push_back(i);
-            ust.insert(i);
-            ap_util(nums, temp, ust);
-        }
-        // ap_util(nums, temp, ust);
-        return all_permutations;
+        ap_util(nums, 0, nums.size()-1);
+        return ans;
     }
 };
+    // SOLUTION 2 - BEGGING ONE , PROBABLY > N! SPACE & TIME COMPLEXITY
+    // vector<vector<int>> all_permutations;
+    // vector<unordered_set<int>> ap_ust;
+    // void ap_util(vector<int> &nums, vector<int> curr, unordered_set<int> ust){
+    //     for (auto i: curr) {
+    //         cout<<i<<" ";
+    //     }
+    //     cout<<endl;
+    //     if (curr.size() == nums.size()) {
+    //         all_permutations.push_back(curr);
+    //         return;
+    //     }
+    //     for (auto i: nums) {
+    //         if (ust.find(i) != ust.end()) continue;
+    //         vector<int> temp = curr;
+    //         temp.push_back(i);
+    //         unordered_set<int> temp_ust = ust;
+    //         temp_ust.insert(i);
+    //         ap_util(nums, temp, temp_ust);
+    //     }
+    // }
+    // vector<vector<int>> permute(vector<int>& nums) {
+    //     for (auto i: nums) {
+    //         vector<int> temp;
+    //         unordered_set<int> ust;
+    //         temp.push_back(i);
+    //         ust.insert(i);
+    //         ap_util(nums, temp, ust);
+    //     }
+    //     return all_permutations;
+    // }
+
+    // SOLUTION 1 - GENERATING THE NEXT PERMUTATION FOR GIVEN NUMS 
     // vector<int> next_permutation_of(vector<int> nums) {
     //     int i=nums.size()-1;
     //     for (i=i; i>0; i--) {
