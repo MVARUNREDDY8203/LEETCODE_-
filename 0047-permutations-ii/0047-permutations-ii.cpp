@@ -9,7 +9,7 @@ public:
             return;
         }
         for (int j=i; j<=n; j++) {
-            // if (nums[i] == nums[j] && j != i) continue;
+            if (nums[i] == nums[j] && j != i) continue;
             swap(nums[i], nums[j]);
             ap_util(nums, i+1, n);
             swap(nums[i], nums[j]);
