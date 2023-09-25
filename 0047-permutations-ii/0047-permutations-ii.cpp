@@ -16,7 +16,7 @@ public:
         }
     }
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        // sort(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end());
         ap_util(nums, 0, nums.size()-1);
         return ans;
     }
