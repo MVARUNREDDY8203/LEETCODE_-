@@ -12,7 +12,7 @@ public:
             if (nums[i] == nums[j] && j != i) continue;
             swap(nums[i], nums[j]);
             ap_util(nums, i+1, n);
-            swap(nums[i], nums[j]);
+            // swap(nums[i], nums[j]);
         }
     }
     vector<vector<int>> permuteUnique(vector<int>& nums) {
