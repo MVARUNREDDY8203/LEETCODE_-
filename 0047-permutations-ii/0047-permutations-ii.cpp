@@ -1,16 +1,18 @@
 class Solution {
 public:
     vector<vector<int>> ans;
+    set<vector<int>> st;
     void ap_util(vector<int> nums, int i, int n) {
-        if (i==n) {
+        if (i==n && st.find(nums) == st.end()) {
             ans.emplace_back(nums);
+            st.insert(nums);
             return;
         }
         for (int j=i; j<=n; j++) {
-            if (nums[i] == nums[j] && j != i) continue;
+            // if (nums[i] == nums[j] && j != i) continue;
             swap(nums[i], nums[j]);
             ap_util(nums, i+1, n);
-            // swap(nums[i], nums[j]);
+            swap(nums[i], nums[j]);
         }
     }
     vector<vector<int>> permuteUnique(vector<int>& nums) {
