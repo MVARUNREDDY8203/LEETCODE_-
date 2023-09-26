@@ -9,11 +9,11 @@ public:
 
         stack<char> stk;
         for (int i=0; i<s.size(); i++) {
-            while (!stk.empty() && ump[stk.top()] > 0 && stk.top() >= s[i] && ust.find(s[i]) == ust.end()) {
-                ust.erase(stk.top());
-                stk.pop();
-            }
             if (ust.find(s[i]) == ust.end()) {
+                while (!stk.empty() && ump[stk.top()] > 0 && stk.top() >= s[i]) {
+                    ust.erase(stk.top());
+                    stk.pop();
+                } 
                 stk.push(s[i]);
                 ust.insert(s[i]);
             }
