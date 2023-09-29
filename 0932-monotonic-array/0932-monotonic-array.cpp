@@ -10,6 +10,7 @@ public:
             if (nums[i] > nums[i-1]) {
                 desc = false; 
             }
+            if (!asc && !desc) return false;
         }
         return asc || desc;        
     }
