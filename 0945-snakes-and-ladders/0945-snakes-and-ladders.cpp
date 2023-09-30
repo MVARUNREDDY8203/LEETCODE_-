@@ -62,20 +62,20 @@ public:
 
         while (!que.empty()) {
             int curr = que.front();
-            if (curr == n*n) {for(auto i: steps) cout<<i<<" "; return snl[n*n];}
+            if (curr == n*n) return snl[n*n];
             que.pop();
 
             for (int i=1; i<=6; i++) {
                 int next = snl[min(curr + i, n*n)];
                 next = (next == -1 ? min(curr + i, n*n) : next);
-                if (steps[next] == -1) {
-                    steps[next] = steps[curr] + 1; // if not visited then update
+                
+                if (steps[next] == -1) {    // if not visited then update
+                    steps[next] = steps[curr] + 1; 
                     if (next == n*n) return steps[next];
                     que.push(next);
                 }
             }
         }
-        for(auto i: steps) cout<<i<<" ";
         return -1;
     }
     int snakesAndLadders(vector<vector<int>>& board) {
@@ -83,13 +83,13 @@ public:
         int n = board.size();
         bool left_to_right = true;
         snl.push_back(0);
+        
         for (int i=n-1; i>=0; i--) {
             if (left_to_right) for (int j=0; j<n; j++) snl.emplace_back(board[i][j]);
             else for (int j=n-1; j>=0; j--) snl.emplace_back(board[i][j]);
             left_to_right = !left_to_right;
         }
-        for (auto i: snl) cout<<i<<" ";
-        cout<<endl;
+
         return bfs(snl, n);
     }
 };
