@@ -15,7 +15,7 @@ public:
         if (temp != "") {
             reverse(temp.begin(), temp.end());
             ans += temp;
-        } 
+        }
         return ans;
     }
 };
