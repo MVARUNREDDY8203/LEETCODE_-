@@ -1,13 +1,12 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map<int, int> ump;
+        map<int, int> ump;
         for (auto i: nums) {
             ump[i]++;
         }
         
         vector<pair<int, int>> temp;
-
         for (auto it = ump.begin(); it != ump.end(); it++) {
             temp.push_back({it->first, it->second});
         }
