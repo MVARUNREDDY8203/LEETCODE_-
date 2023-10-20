@@ -1,25 +1,21 @@
 class TimeMap {
 public:
-    struct customComparator {
-        bool operator() (const int &a, const int &b) const{
-            return a >= b;
-        }
-    };
-    unordered_map<string, map<int, string, customComparator>> ump;
+    unordered_map<string, map<int, string>> ump;
     TimeMap() {
-       
     }
     
     void set(string key, string value, int timestamp) {
         ump[key][timestamp] = value;
+        cout<<ump[key][timestamp]<<endl;
     }
     
     string get(string key, int timestamp) {
+        
         if (ump.find(key) == ump.end()) return "";
         if (ump[key].find(timestamp) == ump[key].end()) {
-            auto it = ump[key].begin();
-            for (; it != ump[key].end() && it->first > timestamp; it++) {}
-            if (it == ump[key].end()) return "";
+            auto it = ump[key].upper_bound(timestamp);
+            if (it == ump[key].begin()) return "";
+            it--;
             return it->second;
         }
         return ump[key][timestamp];
