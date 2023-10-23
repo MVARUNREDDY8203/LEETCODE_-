@@ -1,14 +1,28 @@
 class Solution {
 public:
-    bool canJump(vector<int> &nums) {
-        int min_jump = 0, n = nums.size();
-        for (int i=n-2; i>=0; i--) {
-            min_jump++;
-            if (nums[i] >= min_jump) min_jump = 0;
+    bool canJump(vector<int>& nums) {
+        int pos = 0;
+        for (int i=0; i<nums.size()-1 && pos >= i; i++) {
+            pos = max(pos, nums[i] + i);
         }
-        return min_jump == 0 ? true: false;
+        return pos >= nums.size()-1 ? true : false;
     }
 };
+
+
+// resetting min jump to 0 and traversing from behind O(n) solution
+// class Solution {
+// public:
+//     bool canJump(vector<int> &nums) {
+//         int min_jump = 0, n = nums.size();
+//         for (int i=n-2; i>=0; i--) {
+//             min_jump++;
+//             if (nums[i] >= min_jump) min_jump = 0;
+//         }
+//         return min_jump == 0 ? true: false;
+//     }
+// };
+
 // checking for a zero (point of problem) and checking if it can be crossed or not O(n^2)
 // class Solution {
 // public:
