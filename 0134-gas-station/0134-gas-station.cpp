@@ -1,3 +1,52 @@
+class Solution {
+public:
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        int currGas = 0, totalGas = 0, n = gas.size(), ans = 0;
+        for (int i=0; i<n; i++) {
+            totalGas += gas[i] - cost[i];
+            currGas += gas[i] - cost[i];
+            if (currGas < 0) {
+                ans = i+1;
+                currGas = 0;
+            }
+        }
+        return totalGas >= 0 ? ans: -1;
+    }
+};
+
+
+// class Solution {
+// public:
+//     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+//         int n = gas.size();
+//         if (n < 1) return 0;
+//         if (n == 1) {
+//             return gas[0] < cost[0] ? -1 : 0;
+//         }
+//         for (int i=0; i<n; i++) {
+//             // if (gas[i] >= cost[i]) {
+//             if (gas[i] == cost[i]) continue;
+//             int k = 0;
+//             int tank = 0;
+//             for (int j=i; k < n; j++) {
+//                 tank += gas[j%n] - cost[j%n];
+//                 if (tank < 0) break;
+//                 k++;
+//             }
+//             if (k == n && tank >= 0) return i;
+//             // }
+//         }
+//         return -1;
+//     }
+// };
+
+
+
+
+
+
+
+
 // class Solution {
 // public:
 //     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
@@ -22,27 +71,3 @@
 //         return -1;
 //     }
 // };
-class Solution {
-public:
-    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-        int n=gas.size();
-        int total_gas=0,total_cost=0;
-        int curr_gas=0, starting_point=0;
-        for(int i=0;i<n;i++)
-        {
-            //these two variable are to check if no case is possible
-            total_gas+=gas[i];
-            total_cost+=cost[i];
-            //for checking the total present gas at index i
-            curr_gas+=gas[i]-cost[i];
-            if(curr_gas<0)
-            {
-               //there is a breakdown....so we will start from next point or index
-                starting_point=i+1;
-                //reset our fuel 
-                curr_gas=0;
-            }
-        }
-        return (total_gas<total_cost)?-1:starting_point;     
-    }
-};
