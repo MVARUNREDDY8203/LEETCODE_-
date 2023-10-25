@@ -13,7 +13,7 @@ public:
             if (ump2.empty()) return true;
             int value = ump2.begin()->first;
             for (int j = 1; j<groupSize; j++) {
-                if (ump2.find(value+j) == ump2.end() || ump2[value+j] <= 0) return false;
+                if (ump2.find(value+j) == ump2.end()) return false;
                 ump2[value+j]--;
                 if (ump2[value+j] <= 0) ump2.erase(value+j);
             }
