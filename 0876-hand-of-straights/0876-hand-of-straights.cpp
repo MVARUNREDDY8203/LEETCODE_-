@@ -4,7 +4,6 @@ public:
         int n = hand.size();
         if (n%groupSize != 0) return false;
 
-        unordered_map<int, int> ump;
         set<int> ust;
         unordered_map<int, int> ump2;
         for (int i=0; i<n; i++) {
@@ -13,19 +12,15 @@ public:
         }
         
         while (true) {
-            if  (ust.empty()) return true;
+            if (ust.empty()) return true;
             int value = *ust.begin();
             for (int j = 1; j<groupSize; j++) {
                 if (ust.find(value+j) == ust.end() || ump2.find(value+j) == ump2.end() || ump2[value+j] <= 0) return false;
                 ump2[value+j]--;
-                if (ump2[value+j] <= 0) {
-                    ust.erase(value+j);
-                }
+                if (ump2[value+j] <= 0) ust.erase(value+j);
             }
             ump2[value]--;
-            if (ump2[value] <= 0) {
-                ust.erase(value);
-            }
+            if (ump2[value] <= 0) ust.erase(value);
         }    
         return true;
     }
