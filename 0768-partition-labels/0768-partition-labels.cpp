@@ -14,7 +14,6 @@ public:
                 ans.emplace_back(++len);
                 len = 0;
                 ptr++;
-                // continue;
             }
             r = n-1;
             while (r >= ptr) {
@@ -31,7 +30,6 @@ public:
             ptr++;
             len++;                        
         }
-        // if (ust.find(s[--ptr]) == ust.end()) ans.push_back(len);
         return ans;
     }
 };
