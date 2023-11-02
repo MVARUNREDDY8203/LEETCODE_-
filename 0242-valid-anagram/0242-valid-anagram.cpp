@@ -1,11 +1,25 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        sort(s.begin(), s.end());
-        sort(t.begin(), t.end());
-        return s==t;
+        unordered_map<int, int> ump;
+        for (int i=0; i<s.size(); i++) ump[s[i]]++;
+        for (int i=0; i<t.size(); i++) {
+            if (ump.find(t[i]) == ump.end()) return false;
+            ump[t[i]]--;
+        }
+        for (auto it : ump) if (it.second > 0) return false;
+        return true;
     }
 };
+
+// class Solution {
+// public:
+//     bool isAnagram(string s, string t) {
+//         sort(s.begin(), s.end());
+//         sort(t.begin(), t.end());
+//         return s==t;
+//     }
+// };
 
 // class Solution {
 // public:
