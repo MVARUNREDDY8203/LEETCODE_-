@@ -1,19 +1,40 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> ans;
-        unordered_map<int, vector<string>> ump;
-        for (int i=0; i<strs.size(); i++) {
-            long long int hv = 0;
-            for (int j=0; j<strs[i].size(); j++) {
-                hv += strs[i][j] * strs[i][j] * strs[i][j] * strs[i][j];
-            }
-            ump[hv].push_back(strs[i]);
+        map<map<char, int>, vector<string>> mp;
+        int n = strs.size();
+        for (int i=0; i<n; i++) {
+            map<char, int> ump;
+            for (auto c: strs[i]) ump[c]++;
+            mp[ump].push_back(strs[i]);
         }
-        for (auto it: ump) ans.push_back(it.second);
-        return ans;
+        vector<vector<string>> ans;
+
+        for (auto it: mp) ans.push_back(it.second);
+        return  ans;
     }
 };
+
+
+
+
+
+// class Solution {
+// public:
+//     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+//         vector<vector<string>> ans;
+//         unordered_map<int, vector<string>> ump;
+//         for (int i=0; i<strs.size(); i++) {
+//             long long int hv = 0;
+//             for (int j=0; j<strs[i].size(); j++) {
+//                 hv += strs[i][j] * strs[i][j] * strs[i][j] * strs[i][j];
+//             }
+//             ump[hv].push_back(strs[i]);
+//         }
+//         for (auto it: ump) ans.push_back(it.second);
+//         return ans;
+//     }
+// };
 
 
 // class Solution {
