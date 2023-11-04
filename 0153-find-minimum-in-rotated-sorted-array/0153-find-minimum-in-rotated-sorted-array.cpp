@@ -6,7 +6,7 @@ public:
         while (l <= r) {
             int mid = (l+r)/2;
             if (nums[mid] < nums[r]) {
-                r = mid-1;
+                r = mid;
                 ans = min(nums[mid], ans);
             }else if (nums[mid] > nums[r]){
                 l = mid + 1;
