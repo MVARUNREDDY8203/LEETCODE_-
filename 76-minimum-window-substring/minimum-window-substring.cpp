@@ -1,11 +1,11 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        unordered_map<int, int> ump1;
+        vector<int> ump1(256, 0);
         for (auto i: t) ump1[i]++;
 
         int start = 0, end = 0, cnt = 0, ans_l, ans_r, size = INT_MAX;
-        unordered_map<int, int> ump2;
+        vector<int> ump2(256, 0);
         while (end < s.size()) {
             ump2[s[end]]++;
             if (ump2[s[end]] <= ump1[s[end]]) cnt++; // means a necessity char is found and so cnt is increased
