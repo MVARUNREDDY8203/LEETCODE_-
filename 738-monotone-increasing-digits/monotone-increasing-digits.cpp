@@ -5,7 +5,6 @@ public:
         if (i == 0) return;
 
         if (nums[i] < nums[i-1]) {
-            cout<<nums[i]<<" "<<nums[i-1]<<endl;
             nums[i-1]--;
             min_depth = min(min_depth, i);
         }
@@ -27,8 +26,6 @@ public:
 
         util(dig, dig.size()-1);
         
-        for (auto i: dig) cout<<i;
-        cout<<endl<<min_depth;
         int ans = 0;
         for (int i=0; i<dig.size(); i++) {
             ans = ans * 10;
