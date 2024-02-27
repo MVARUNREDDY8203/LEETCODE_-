@@ -26,7 +26,6 @@ public:
                 lt = !(arr[i] < arr[i-1]);
             }
             ans = max(ans, sub_ans);
-            cout<<i<<" "<<lt<<" "<<sub_ans<<" "<<ans<<endl;
         }
         ans = max(ans, sub_ans);
         return ans;
