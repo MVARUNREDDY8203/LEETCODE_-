@@ -18,30 +18,3 @@ public:
         }
     }
 };
-// class Solution {
-// public:
-//     void sortColors(vector<int>& nums) {
-//         int l = 0, l2 = 0, n = nums.size();
-//         while (l < n && l2 < n && l <= l2) {
-//             while (l < n && nums[l] == 0) l++;
-//             int l2 = l+1;
-//             while (l2 < n && nums[l2] != 0) l2++;
-//             // cout<<l<<" "<<l2<<endl;
-//             if (l < n && l2 < n) swap(nums[l], nums[l2]);
-//         }
-        
-//         l = 0;
-//         while (nums[l] == 0) l++;
-
-//         l2 = l+1, n = nums.size();
-//         while (l < n && l2 < n && l <= l2) {
-//             // cout<<n;
-//             while (l < n && nums[l] == 1) l++;
-//             int l2 = l+1;
-//             while (l2 < n && nums[l2] != 1) l2++;
-//             cout<<l<<" "<<l2<<" "<<n<<endl;
-//             if (l < n && l2 < n) swap(nums[l], nums[l2]);
-//             else break;
-//         }
-//     }
-// };
