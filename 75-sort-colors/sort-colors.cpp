@@ -1,11 +1,10 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        int zeros = 0, ones = 0, twos = 0, n = nums.size();
+        int zeros = 0, ones = 0, n = nums.size();
         for (int i=0; i<n; i++) {
             if (nums[i] == 0) zeros++;
             else if (nums[i] == 1) ones++;
-            else twos++;
         }
         for (int i=0; i<zeros; i++) nums[i] = 0;
         for (int j=zeros; j<ones+zeros; j++) nums[j] = 1;
