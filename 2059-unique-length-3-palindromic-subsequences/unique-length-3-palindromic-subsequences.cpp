@@ -10,13 +10,40 @@ public:
         
         int ans = 0;
         for (int i=0; i<26; i++) {
+            vector<int> freq(26, 0);
             if (first[i] < last[i]) {
-                ans += unordered_set<int>(s.begin() + first[i] + 1, s.begin()+last[i]).size();
+                for (int j=first[i]+1; j<last[i]; j++) {
+                    freq[s[j] - 'a']++;
+                }
+                int cnt = 0;
+                for (auto i: freq) if (i > 0) cnt++;
+                ans += cnt;
             }
         }
         return ans;
     }
 };
+
+
+// class Solution {
+// public:
+//     int countPalindromicSubsequence(string s) {
+//         vector<int> first(26, INT_MAX), last(26, INT_MIN);
+//         int n = s.size();
+//         for (int i=0; i<n; i++) {
+//             first[s[i] - 'a'] = min(first[s[i] - 'a'], i);
+//             last[s[i] - 'a'] = max(last[s[i] - 'a'], i);
+//         }
+        
+//         int ans = 0;
+//         for (int i=0; i<26; i++) {
+//             if (first[i] < last[i]) {
+//                 ans += unordered_set<int>(s.begin() + first[i] + 1, s.begin()+last[i]).size();
+//             }
+//         }
+//         return ans;
+//     }
+// };
 
 
 // class Solution {
