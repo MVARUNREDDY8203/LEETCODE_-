@@ -3,21 +3,18 @@ public:
     int subarraySum(vector<int>& nums, int k) {
         int ans = 0, n = nums.size();
 
-        vector<int> sum_bw_0_and(n, 0);
-        sum_bw_0_and[0] = nums[0];
-        if (nums[0] == k) ans++;
+        vector<int> prefix(n, 0);
+        prefix[0] = nums[0];
         for (int i=1; i<n; i++) {
-            sum_bw_0_and[i] = sum_bw_0_and[i-1] + nums[i];
-            if (sum_bw_0_and[i] == k) ans++;
+            prefix[i] = prefix[i-1] + nums[i];
         }
 
-        
-        for (int i=1; i<n; i++) {
-            int sum = 0;
-            for (int j=i; j<n; j++) {
-                sum = sum_bw_0_and[j] - sum_bw_0_and[i-1];
-                if (sum == k) ans++;
-            }
+        unordered_map<int, int> ump;
+
+        for (int i=0; i<n; i++) {
+            if (prefix[i] == k) ans++;
+            ans+= ump[prefix[i]-k];
+            ump[prefix[i]]++;
         }
         return ans;
     }
