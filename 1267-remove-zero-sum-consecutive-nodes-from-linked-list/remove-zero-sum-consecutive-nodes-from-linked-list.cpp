@@ -29,7 +29,6 @@ public:
                     for (int k=i; k<=j; k++) {
                         nums[k] = 2000;
                     }
-                    // break;
                     i = j;
                 }
             }
