@@ -1,7 +1,8 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_map<int, int> ump;
+        // unordered_map<int, int> ump;
+        int ump[256] = {0};
         int start = 0, e = 0, n = s.size(), ans = 0;
         while (e < n) {
             ump[s[e]]++;
