@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k) {
+        ios_base::sync_with_stdio(false); cin.tie(NULL);
         sort(nums.begin(), nums.end());
         long long int sum = 0;
         int l = 0, r = 0, n = nums.size(), ans = 0;
