@@ -4,7 +4,7 @@ public:
     queue<vector<int>> bfs_que;
 
     int maxDistance(vector<vector<int>>& graph) {
-        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
+        // ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int n = graph.size();
 
         int ans = -1, land_cnt = 0, water_cnt = 0;
