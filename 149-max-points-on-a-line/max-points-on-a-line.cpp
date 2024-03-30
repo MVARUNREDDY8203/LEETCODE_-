@@ -10,11 +10,8 @@ public:
                 int q = (points[j][0] - points[i][0]);
                 if (q == 0) m = INT_MAX;
                 else m = (double)p/(double)q;
-                cout<<p<<" "<<q<<" "<<m<<endl;
                 ump[m]++;
             }
-            // for (auto i: ump) cout<<i.first<<" "<<i.second<<" , ";
-            cout<<endl;
             for (auto i: ump) ans = max(ans, i.second+1);
         }
         return ans;
