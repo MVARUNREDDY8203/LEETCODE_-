@@ -1,6 +1,7 @@
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int m = board.size();
         int n = board[0].size();
         vector<vector<int>> next_state(m, vector<int>(n, 0));
@@ -25,7 +26,6 @@ public:
                 if (board[i][j] && live_neighbours < 2) next_state[i][j] = 0;
                 else if (board[i][j] && live_neighbours > 3) next_state[i][j] = 0;
                 else if (!board[i][j] && live_neighbours == 3) next_state[i][j] = 1;
-
             }
         }
         board = next_state;
