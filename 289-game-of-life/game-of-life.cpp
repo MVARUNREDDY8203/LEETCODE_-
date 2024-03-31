@@ -28,9 +28,6 @@ public:
 
             }
         }
-        // board = next_state;
-        for (int i=0; i<m; i++) {
-            for (int j=0; j<n; j++) board[i][j] = next_state[i][j];
-        }
+        board = next_state;
     }
 };
