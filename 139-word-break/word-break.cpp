@@ -1,9 +1,8 @@
 class Solution {
 public:
     unordered_set<string> uset;
-    int dp[300];
     
-    bool util (int i, string s) {
+    bool util (int i, string s, vector<int> &dp) {
         if (i >= s.size()) return true;
         if (dp[i] != -1) return dp[i];
 
@@ -11,7 +10,7 @@ public:
             string p = s.substr(i, j-i+1);
 
             if (uset.count(p)) {
-                if (util(j+1, s)) return dp[i] = true;
+                if (util(j+1, s, dp)) return dp[i] = true;
             }
         }
 
@@ -20,9 +19,9 @@ public:
     bool wordBreak(string s, vector<string>& wordDict) {
         ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         for (auto i: wordDict) uset.insert(i);
-        memset(dp, -1, sizeof(dp));
 
-        return util(0, s);
+        vector<int> dp(s.size(), -1);
+        return util(0, s, dp);
     }
 };
 
