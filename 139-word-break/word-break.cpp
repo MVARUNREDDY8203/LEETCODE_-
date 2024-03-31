@@ -18,9 +18,10 @@ public:
         return dp[i] = false;
     }
     bool wordBreak(string s, vector<string>& wordDict) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         for (auto i: wordDict) uset.insert(i);
         memset(dp, -1, sizeof(dp));
-        
+
         return util(0, s);
     }
 };
