@@ -4,7 +4,6 @@ public:
         ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int m = board.size();
         int n = board[0].size();
-        // 0->1 = -1, 1->0 = 2;
         for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
                 int live_neighbours = 0;
