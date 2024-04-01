@@ -17,6 +17,7 @@ public:
         return 0;
     }
     int maxAreaOfIsland(vector<vector<int>>& grid) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);
         m = grid.size(), n = grid[0].size();
         int max_area = 0;
         for (int i=0; i<m; i++) {
