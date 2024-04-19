@@ -12,7 +12,6 @@
 class Solution {
 public:
     vector<string> dict;
-    vector<string> dict2;
     void dfs(TreeNode* root, string curr) {
         if (!root) return;
 
@@ -31,12 +30,7 @@ public:
     string smallestFromLeaf(TreeNode* root) {
         dfs(root, "");
         if (dict.size() == 0) return "";
-
-        int min_size = INT_MAX;
-     
         sort(dict.begin(), dict.end());
-
-
         return dict[0];
     }
 };
