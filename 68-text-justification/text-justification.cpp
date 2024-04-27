@@ -3,20 +3,19 @@ public:
     vector<string> fullJustify(vector<string>& words, int maxWidth) {
         int l = 0, r = 0, n = words.size(), curr_size = 0;
         vector<string> ans;
+
         for (int r = 0; r < n; r++) {
             curr_size += words[r].size();
 
-            if (curr_size > maxWidth) {
-                // for l = 0 to r -1; r-- continue;
+            if (curr_size > maxWidth) {     // curr_size is size of current window
                 string one_line = "";
 
                 curr_size -= words[r].size();
-                int space_cnt = r - l;  // removing the number of spaces
-                curr_size -= space_cnt;
+                int space_cnt = r - l;  // removing the single spaces from current window to get size of only words
+                curr_size -= space_cnt; 
                 int rem_space = maxWidth - curr_size;
-                space_cnt--;
+                space_cnt--;    // removing the count of one extra space added at the end of the last word
 
-                cout<<l<<" "<<r<<" "<<rem_space<<" "<<space_cnt<<" "<<endl;
                 if (space_cnt == 0) {
                     //meaning only 1 word is possible in the line
                     one_line += words[l++];
@@ -24,9 +23,8 @@ public:
                                         
                 }else {
                     
-                    int space_ceil = space_cnt == 0 ? 1 : ceil((float)rem_space/(float)space_cnt);
-                    cout<<space_ceil<<endl;
-                    int space_floor = space_cnt == 0 ? 1 : rem_space/space_cnt;
+                    int space_ceil = ceil((float)rem_space/(float)space_cnt);
+                    int space_floor = rem_space/space_cnt;
                     string ceil_spaces = "";
                     string floor_spaces = "";
                     for (int k=0; k<space_ceil; k++) ceil_spaces += " ";
@@ -50,7 +48,7 @@ public:
 
                 curr_size = words[r].size();
             }
-            curr_size++;    // minimum 1 space
+            curr_size++;    // adding the minimum 1 space
         }
         // push_back the last line
         string last_line = "";
@@ -59,10 +57,9 @@ public:
             last_line += words[l++];
             if (last_line.size() < maxWidth) last_line += ' ';
         }
-        int remn_spaces = maxWidth - last_line.size();
-        while (remn_spaces > 0) {
+
+        while (last_line.size() < maxWidth) {
             last_line += ' ';
-            remn_spaces--;
         }
         ans.push_back(last_line);
 
