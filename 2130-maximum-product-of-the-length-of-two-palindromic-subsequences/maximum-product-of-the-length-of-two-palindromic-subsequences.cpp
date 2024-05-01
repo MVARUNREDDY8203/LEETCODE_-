@@ -1,7 +1,4 @@
 class Solution {
-private:
-    unordered_map<int, int> s1_idxes;
-    unordered_map<int, int> s2_idxes;
 public:
     bool isPalindrome(string &s1) {
         int n = s1.size() - 1;
@@ -17,20 +14,15 @@ public:
             return 0;
         }
         int ans = 0;
-        if (s2_idxes[i] == 0) {
-            s1_idxes[i]++;
-            s1 += s[i];
-            ans = dfs(i+1, s1, s2, s);
-            s1.pop_back();
-            s1_idxes[i]--;
-        }
-        if (s1_idxes[i] == 0) {
-            s2_idxes[i]++;
-            s2 += s[i];
-            ans = max(ans, dfs(i+1, s1, s2, s));
-            s2.pop_back();
-            s2_idxes[i]--;
-        }
+
+        s1 += s[i];
+        ans = dfs(i+1, s1, s2, s);
+        s1.pop_back();
+
+        s2 += s[i];
+        ans = max(ans, dfs(i+1, s1, s2, s));
+        s2.pop_back();
+
         ans = max(ans, dfs(i+1, s1, s2, s));
         return ans;
     }
