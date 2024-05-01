@@ -1,10 +1,10 @@
 class Solution {
 public:
     string largestNumber(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         vector<string> str_nos;
         for (auto i: nums) str_nos.push_back(to_string(i));
         
-        for (auto i: str_nos) cout<<i;
         sort(str_nos.begin(), str_nos.end(), [](const string &a, const string &b) {
             string a_b = a + b;
             string b_a = b + a;
