@@ -1,6 +1,7 @@
 class Solution {
 public:
     string pushDominoes(string dominoes) {
+        ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
         int n = dominoes.size();
         vector<int> prev_r(n, 0);
         int prev = -1;
@@ -42,7 +43,6 @@ public:
             }
             else ans += '.';
         }
-        cout<<next_l[n-1];
         return ans;
     }
 };
