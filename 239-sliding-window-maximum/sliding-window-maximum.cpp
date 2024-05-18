@@ -1,22 +1,50 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        priority_queue<pair<int, int>> max_heap;
-        for (int i=0; i<k; i++) { 
-            max_heap.push({nums[i], i});
-        }
         vector<int> ans;
-        ans.push_back(max_heap.top().first);
-        for (int i=k; i<nums.size(); i++) {
-            max_heap.push({nums[i], i});
-            while (max_heap.top().second <= i-k) {
-                max_heap.pop();
-            }
-            ans.push_back(max_heap.top().first);
+        priority_queue<int> pq;
+        unordered_map<int, int> ump;
+        for (int i=0; i<k; i++) {
+            pq.push(nums[i]);
+            ump[nums[i]]++;
         }
+        ans.push_back(pq.top());
+
+        for (int i=k; i<nums.size(); i++) {
+            ump[nums[i-k]]--;
+            while (!pq.empty() && ump[pq.top()] <= 0) pq.pop();
+            pq.push(nums[i]);
+            ump[nums[i]]++;
+            ans.push_back(pq.top());
+        }
+
         return ans;
     }
 };
+
+
+
+
+
+// class Solution {
+// public:
+//     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+//         priority_queue<pair<int, int>> max_heap;
+//         for (int i=0; i<k; i++) { 
+//             max_heap.push({nums[i], i});
+//         }
+//         vector<int> ans;
+//         ans.push_back(max_heap.top().first);
+//         for (int i=k; i<nums.size(); i++) {
+//             max_heap.push({nums[i], i});
+//             while (max_heap.top().second <= i-k) {
+//                 max_heap.pop();
+//             }
+//             ans.push_back(max_heap.top().first);
+//         }
+//         return ans;
+//     }
+// };
 
 
 // class Solution {
