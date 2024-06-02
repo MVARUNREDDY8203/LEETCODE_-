@@ -4,10 +4,13 @@ public:
     vector<vector<int>> visited, ocean;
     queue<vector<int>> que;
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+        
         int m = heights.size(), n = heights[0].size();
         visited.resize(m, vector<int>(n, 0));
         ocean.resize(m, vector<int>(n, 0));
 
+        //pacific sweep
         for (int i=0; i<n; i++) que.push({0, i, heights[0][i]});
         for (int i=0; i<m; i++) que.push({i, 0, heights[i][0]});
 
@@ -27,21 +30,14 @@ public:
             que.push({i, j-1, heights[i][j]});
         }
 
-        // visited.resize(m, vector<int>(n, 0));
+        //resetting the visited array 
         for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
                 visited[i][j] = 0;
             }
         }
-        for (int i=0; i<m; i++) {
-            for (int j=0; j<n; j++) {
-                cout<<visited[i][j]<<" ";
-                // if (ocean[i][j] == 2) ans.push_back({i, j});
-            }
-            cout<<endl;
-        }
-            cout<<endl;
 
+        // atlantic sweep 
         for (int i=0; i<n; i++) que.push({m-1, i, heights[m-1][i]});
         for (int i=0; i<m; i++) que.push({i, n-1, heights[i][n-1]});
 
@@ -64,10 +60,8 @@ public:
         vector<vector<int>> ans;
         for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
-                cout<<ocean[i][j]<<" ";
                 if (ocean[i][j] == 2) ans.push_back({i, j});
             }
-            cout<<endl;
         }
         return ans;
     }
