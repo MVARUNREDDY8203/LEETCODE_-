@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minReorder(int n, vector<vector<int>>& connections) {
-        ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         vector<vector<vector<int>>> adj(n);
         for (auto i: connections) {
             adj[i[0]].push_back({i[1], 1});
