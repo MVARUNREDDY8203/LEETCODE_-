@@ -10,10 +10,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 # Breadth-First Search
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 # Union Find
 |  |
 | ------- |
@@ -22,3 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
+# Graph
+|  |
+| ------- |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
