@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     int minReorder(int n, vector<vector<int>>& connections) {
         ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
         vector<vector<vector<int>>> adj(n);
@@ -12,7 +11,7 @@ public:
         stack<int> stk;
         int cnt = 0;
         stk.push(0);
-        set<int> visited;
+        unordered_set<int> visited;
         while (!stk.empty()) {
             int parent = stk.top();
             stk.pop();
