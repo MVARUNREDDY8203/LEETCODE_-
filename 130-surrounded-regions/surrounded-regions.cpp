@@ -15,6 +15,7 @@ public:
         dfs_marker(i, j-1, board);
     }
     void solve(vector<vector<char>>& board) {
+        ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
         m = board.size(), n = board[0].size();
         visited.resize(m, vector<int>(n, 0));
         for (int i=0; i<n; i++) dfs_marker(0, i, board);
