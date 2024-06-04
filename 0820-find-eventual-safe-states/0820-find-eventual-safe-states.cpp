@@ -4,10 +4,11 @@ public:
     unordered_set<int> visited;
     unordered_set<int> safe;
     unordered_set<int> unsafe;
+
     bool dfs(int i, vector<vector<int>>& graph) {
         if (unsafe.count(i)) return false;
         if (safe.count(i)) return true;
-        
+
         if (visited.count(i)) return false;
         visited.insert(i);
         
@@ -15,8 +16,6 @@ public:
             safe.insert(i);
             return true;
         }
-
-
 
         bool flag = true;
         for (auto &e : graph[i]) {
