@@ -27,6 +27,8 @@ public:
         return -1;
     }
     int openLock(vector<string>& dead_ends, string target) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
+
         que.push({"0000", 0});
         for (auto i: dead_ends) deadends.insert(i);
 
