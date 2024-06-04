@@ -6,6 +6,7 @@ public:
     unordered_set<int> unsafe;
 
     bool dfs(int i, vector<vector<int>>& graph) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         if (unsafe.count(i)) return false;
         if (safe.count(i)) return true;
 
@@ -26,10 +27,8 @@ public:
                 break;
             }
         }
-        if (flag) {
-            safe.insert(i);
-        }
-
+        if (flag) safe.insert(i);
+        
         return flag;
     }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
@@ -40,6 +39,7 @@ public:
             visited.clear();
             if (dfs(i, graph)) ans.push_back(i);
         }
+
         return ans;
     }
 };
