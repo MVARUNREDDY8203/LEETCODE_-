@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
+| [2080-check-if-move-is-legal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2080-check-if-move-is-legal) |
 # Depth-First Search
 |  |
 | ------- |
@@ -32,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
+| [2080-check-if-move-is-legal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2080-check-if-move-is-legal) |
 # Graph
 |  |
 | ------- |
@@ -47,3 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1558-course-schedule-iv) |
+# Enumeration
+|  |
+| ------- |
+| [2080-check-if-move-is-legal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2080-check-if-move-is-legal) |
