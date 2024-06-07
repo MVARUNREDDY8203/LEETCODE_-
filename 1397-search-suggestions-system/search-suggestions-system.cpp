@@ -1,29 +1,21 @@
 class Solution {
-public:
     vector<vector<string>> ans;
-    vector<string> bs(int k, int l, int r, vector<string>& products, string &searchWord) {
-        int mid = (l+r)/2;
-        string& mid_prod = products[mid];
-        if (l < r) {
-            for (int j=0; j<=k; j++) {
-                if (mid_prod[j] < searchWord[j]) return bs(k, l+1, r, products, searchWord);
-                if (mid_prod[j] > searchWord[j]) return bs(k, l, mid, products, searchWord);
-            }
-            return bs(k, l, mid, products, searchWord);
-        }
-        vector<string> smol_ans;
-        for (int i=l; i<l+3 && i < products.size(); i++) {
-            string temp = products[i].substr(0, k+1);
-            string search_term = searchWord.substr(0, k+1);
-            if (temp == search_term) smol_ans.push_back(products[i]);
-            else break;
-        }
-        return smol_ans;
-    }
+public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
         sort(products.begin(), products.end());
+        auto it = products.begin();
+        string curr = "";
+        vector<string> temp;
         for (int i=0; i<searchWord.size(); i++) {
-            ans.push_back(bs(i, 0, products.size(), products, searchWord));
+            temp.clear();
+            curr += searchWord[i];
+            it = lower_bound(products.begin(), products.end(), curr);
+            for (int j=0; j<3 && it+j != products.end(); j++) {
+                string s = *(it+j);
+                if (s.find(curr)) break;    // return first idx of curr in s, if not returns n_pos so ...
+                temp.push_back(s);
+            }
+            ans.push_back(temp);
         } 
         return ans;
     }
