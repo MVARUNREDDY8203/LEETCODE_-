@@ -22,7 +22,6 @@ public:
         while (l < r) {
             mid = (l + r) / 2;
             int curr_days = days_calculator(weights, mid);
-            cout<<l<<" "<<mid<<" "<<r<<" "<<curr_days<<endl;
             if (curr_days > days) {
                 l = mid + 1;
             }
