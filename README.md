@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 | [2080-check-if-move-is-legal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2080-check-if-move-is-legal) |
 # Depth-First Search
 |  |
@@ -58,3 +59,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
+# String
+|  |
+| ------- |
+| [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
+# Trie
+|  |
+| ------- |
+| [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
+# Sorting
+|  |
+| ------- |
+| [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
