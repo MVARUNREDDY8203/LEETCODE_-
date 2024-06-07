@@ -2,6 +2,7 @@ class Solution {
     vector<vector<string>> ans;
 public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         sort(products.begin(), products.end());
         auto it = products.begin();
         string curr = "";
