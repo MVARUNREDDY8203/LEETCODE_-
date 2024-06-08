@@ -1,6 +1,7 @@
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int l = 0, r = nums.size()-1;
         while (l < r) {
             int mid = (l+r)/2;
