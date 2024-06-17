@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0540-single-element-in-a-sorted-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0540-single-element-in-a-sorted-array) |
+| [0633-sum-of-square-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0633-sum-of-square-numbers) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 # String
@@ -78,3 +79,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
+# Math
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0633-sum-of-square-numbers) |
+# Two Pointers
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0633-sum-of-square-numbers) |
