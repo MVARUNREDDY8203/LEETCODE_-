@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
 | [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
 | [0540-single-element-in-a-sorted-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0540-single-element-in-a-sorted-array) |
@@ -93,3 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0121-best-time-to-buy-and-sell-stock) |
