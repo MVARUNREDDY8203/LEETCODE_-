@@ -11,13 +11,18 @@ public:
         sort(arr.begin(), arr.end(), [](const vector<double> &a, const vector<double>&b) {
             return a[0] < b[0];
         });
-        stack<double> stk;
-        stk.push(arr[n-1][1]);
-        int i=n-2;
+        // stack<double> stk;
+        double prev = arr[n-1][1];
+        // stk.push(arr[n-1][1]);
+        int i=n-2, ans = 0;
         while (i >= 0) {
-            while (i>=0 && stk.top() >= (double)arr[i][1]) i--;
-            if (i >=0) stk.push(arr[i][1]);
+            while (i>=0 && prev >= (double)arr[i][1]) i--;
+
+            if (i >= 0) {
+                ans++;
+                prev = max(prev, arr[i][1]);
+            }
         }
-        return stk.size();
+        return ans+1;
     }
 };
