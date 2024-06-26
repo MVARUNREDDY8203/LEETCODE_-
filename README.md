@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0020-valid-parentheses) |
 | [0567-permutation-in-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0567-permutation-in-string) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 # Trie
@@ -105,3 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0567-permutation-in-string) |
+# Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0020-valid-parentheses) |
