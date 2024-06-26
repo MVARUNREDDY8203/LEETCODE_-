@@ -12,7 +12,7 @@ public:
                 freq_map[s2[++l] - 'a']++;
                 cnt--;
             }
-            if (cnt == m) {cout<<l<<" "<<r<<endl;return true; }  
+            if (cnt == m) return true;
             r++;     
         }
         return false;
