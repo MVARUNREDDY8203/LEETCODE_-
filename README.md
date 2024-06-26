@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
+| [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
 | [0540-single-element-in-a-sorted-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0540-single-element-in-a-sorted-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 # Heap (Priority Queue)
 |  |
@@ -87,3 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0633-sum-of-square-numbers) |
+# Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
