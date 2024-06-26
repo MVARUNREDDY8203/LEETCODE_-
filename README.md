@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String
 |  |
 | ------- |
+| [0567-permutation-in-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0567-permutation-in-string) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 # Trie
 |  |
@@ -89,12 +90,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0567-permutation-in-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0567-permutation-in-string) |
 | [0633-sum-of-square-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0633-sum-of-square-numbers) |
 # Hash Table
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
+| [0567-permutation-in-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0567-permutation-in-string) |
 # Dynamic Programming
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0121-best-time-to-buy-and-sell-stock) |
+# Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0567-permutation-in-string) |
