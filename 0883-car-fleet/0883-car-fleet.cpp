@@ -1,6 +1,7 @@
 class Solution {
 public:
     int carFleet(int target, vector<int>& pos, vector<int>& speed) {
+        ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
         int n = pos.size();
         vector<vector<double>> arr(n);
         for (int i=0; i<n; i++) {
@@ -10,10 +11,6 @@ public:
         sort(arr.begin(), arr.end(), [](const vector<double> &a, const vector<double>&b) {
             return a[0] < b[0];
         });
-        // for(auto i: arr) {
-        //     cout<<i[0]<<" "<<i[1]<<endl;
-        // }
-
         stack<double> stk;
         stk.push(arr[n-1][1]);
         int i=n-2;
