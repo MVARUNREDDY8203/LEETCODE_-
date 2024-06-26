@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0130-surrounded-regions) |
 | [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
 | [0540-single-element-in-a-sorted-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0540-single-element-in-a-sorted-array) |
+| [0883-car-fleet](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0883-car-fleet) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 | [2080-check-if-move-is-legal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2080-check-if-move-is-legal) |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0217-contains-duplicate) |
+| [0883-car-fleet](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0883-car-fleet) |
 | [1397-search-suggestions-system](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1397-search-suggestions-system) |
 # Heap (Priority Queue)
 |  |
@@ -111,7 +113,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0155-min-stack) |
+| [0883-car-fleet](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0883-car-fleet) |
 # Design
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0155-min-stack) |
+# Monotonic Stack
+|  |
+| ------- |
+| [0883-car-fleet](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0883-car-fleet) |
