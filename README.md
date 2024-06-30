@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
 ## Stack
 |  |
@@ -157,5 +158,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0138-copy-list-with-random-pointer) |
+## String
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
