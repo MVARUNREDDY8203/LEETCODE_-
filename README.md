@@ -134,8 +134,21 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+| [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+## Linked List
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
+## Recursion
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
