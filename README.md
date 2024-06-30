@@ -124,3 +124,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0883-car-fleet](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0883-car-fleet) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+## Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+<!---LeetCode Topics End-->
