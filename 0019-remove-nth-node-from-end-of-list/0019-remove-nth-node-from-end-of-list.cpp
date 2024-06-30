@@ -11,39 +11,20 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        unordered_map<int, ListNode*> ump;
+        ump[0] = new ListNode(0, head);
         ListNode* curr = head;
-        int size = 0;
-        while(curr != NULL){
-            curr = curr->next;
-            size++;
+        int m = 0;
+        while (curr) {
+            ump[++m] = curr;
+            curr = curr->next; 
         }
-        int prev = size - n;
-        if (prev == 0) return head->next;
-        curr = head;
-        while (prev != 1) {
-            curr = curr->next;
-            prev--;
-        }
+        ump[m+1] = NULL;
+        // if (m == 1) return NULL;
+        // if (ump.count(m-1))
 
-        curr->next = curr->next->next;
-        return head;
+        ump[(m-n+1)-1]->next = ump[(m-n+1)+1];
+
+        return ump[0]->next;
     }
 };
-
-// class Solution {
-// public:
-//     ListNode* removeNthFromEnd(ListNode* head, int n) {
-//         unordered_map<int, ListNode*> ump;
-//         ListNode* curr = head;
-//         int index = 1;
-//         while (curr != NULL) {
-//             ump[index++] = curr;
-//             curr = curr->next;
-//         }
-//         ump[index] == NULL;
-//         int del = index-n;
-//         if(del == 1) return head->next;
-//         ump[del-1]->next = ump[del+1];
-//         return head;
-//     }
-// };
