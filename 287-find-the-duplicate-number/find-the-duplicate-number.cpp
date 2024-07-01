@@ -2,11 +2,20 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
         int n = nums.size()-1;
-        vector<int>freq_map(1e5+1,0);
-        for (int i=0; i<nums.size(); i++) {
-            freq_map[nums[i]]++;
-            if (freq_map[nums[i]] > 1) return nums[i];
+        int size = n+1;
+        
+        int l = 1, r = n;
+        while (l < r) {
+            int mid = (l+r)/2;
+            int cnt = 0;
+            for (int i=0; i<size; i++) {
+                if (nums[i] <= mid) cnt++;
+            }
+            if (cnt > mid) {
+                r = mid;
+            }
+            else l = mid+1;
         }
-        return -1;
+        return l;
     }
 };
