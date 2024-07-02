@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-binary-string-after-change">1804. Maximum Binary String After Change</a></h2><h3>Medium</h3><hr><p>You are given a binary string <code>binary</code> consisting of only <code>0</code>&#39;s or <code>1</code>&#39;s. You can apply each of the following operations any number of times:</p>
+<h2><a href="https://leetcode.com/problems/maximum-binary-string-after-change">Maximum Binary String After Change</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a binary string <code>binary</code> consisting of only <code>0</code>&#39;s or <code>1</code>&#39;s. You can apply each of the following operations any number of times:</p>
 
 <ul>
 	<li>Operation 1: If the number contains the substring <code>&quot;00&quot;</code>, you can replace it with <code>&quot;10&quot;</code>.
