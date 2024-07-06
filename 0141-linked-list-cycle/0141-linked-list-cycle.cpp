@@ -8,38 +8,18 @@
  */
 class Solution {
 public:
-    //TORTOISE AND HARE ALGO
-    bool hasCycle(ListNode* head){
-        if(head == NULL || head->next == NULL) return false;
+    bool hasCycle(ListNode *head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        do {
+            if (slow) slow = slow->next;
+            else return false;
 
-        ListNode* slowPtr = head->next;
-        ListNode* fastPtr = head->next->next;
-
-        while(fastPtr != NULL && fastPtr->next != NULL && fastPtr->next->next != NULL){
-            if(slowPtr == fastPtr) return true;
-            slowPtr = slowPtr->next;
-            fastPtr = fastPtr->next->next;
+            if (fast && fast->next) fast = fast->next->next;
+            else return false;
         }
-        return false;
-    }
-    // bool hasCycle(ListNode *head) {
-    //     unordered_map<ListNode*, bool> mp;
-    //     while(head != NULL && head->next != NULL){
-    //         if(mp[head]) return true;
-    //         else mp[head] = true;
-    //         head=head->next;
-    //     }
-    //     return false;
-    // }
+        while (slow != fast);
 
-    // CONSTRAINT EXPOITATION METHOD
-    // bool Util(ListNode* head, int pos){
-    //     if(head == NULL) return false;
-    //     if(pos>=10000) return true;
-    //     if(head->next == NULL) return false;
-    //     return Util(head->next, pos+1);
-    // }
-    // bool hasCycle(ListNode *head) {
-    //     return Util(head,0);
-    // }
+        return slow == fast;
+    }
 };
