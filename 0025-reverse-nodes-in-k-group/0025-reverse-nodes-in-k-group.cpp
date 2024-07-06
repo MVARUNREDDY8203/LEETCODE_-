@@ -10,57 +10,45 @@
  */
 class Solution {
 public:
-    ListNode* reverseKGroup(ListNode* head, int k) {
+    ListNode* reverseSegment(ListNode* head, int k) {
+        ListNode* end = head;
+        int k_copy = k;
+        while (end && k_copy) {
+            end = end->next;
+            k_copy--;
+        }
+        if (k_copy) return head; // no need to reverse
+        ListNode* dummy = new ListNode(0, end);
+
         ListNode* curr = head;
-        for (int i=0; i<k; i++) {
-            if (!curr) return head;
+        k_copy = k;
+        while (k_copy) {
+            k_copy--;
+            ListNode* dummy_next = dummy->next;
+            dummy->next = curr;
+            curr = curr->next;
+            dummy->next->next = dummy_next;
+        }
+        curr = dummy->next;
+        while (curr) {
+            cout<<curr->val<<" ";
             curr = curr->next;
         }
-        curr = head;
-        ListNode* prev = NULL;
-        ListNode* next = NULL;
-        for (int i=0; i<k; i++) {
-            next = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = next;
+        cout<<endl;
+        return dummy->next;
+    }
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode* hol = new ListNode(0, head);
+        ListNode* curr = hol;
+        int i = 0;
+        while (curr) {
+            if (i%k == 0) {
+                curr->next = reverseSegment(curr->next, k);
+                if (hol->next == nullptr) hol->next = curr->next;
+            }
+            i++;
+            curr = curr->next;
         }
-        head->next = reverseKGroup(curr, k);
-        return prev;
+        return hol->next;
     }
 };
-// ListNode* reverseKGroup(ListNode* head, int k) {
-//     if (!head->next || k == 1) return head;
-
-//     unordered_map<int, ListNode*> ump;
-//     ListNode* curr = head;
-//     int index = 1;
-//     while (curr) {
-//         ump[index++] = curr;
-//         curr = curr->next;
-//     }
-
-//     int i2 = k;
-//     while (i2 <= index) {
-//         curr = ump[i2];
-//         int i = i2-1;
-//         while (i > i2-k) {
-//             cout<<curr->val<<" ";
-//             curr->next = ump[i--];
-//             curr = curr->next;
-//             cout<<curr->val<<" ";
-//         }
-//         i2 += k;
-//         if (ump.find(i2) != ump.end()) curr->next = ump[i2];
-//         else break;
-//     }
-
-//     if (--index % k == 0) {
-//         curr->next = NULL;
-//     }else{
-//         i2 -= k;
-//         curr->next = ump[++i2];
-//     }
-
-//     return ump[k];
-// }
