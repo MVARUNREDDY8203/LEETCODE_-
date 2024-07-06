@@ -8,19 +8,39 @@
  */
 class Solution {
 public:
+    ListNode* util(ListNode* headA, ListNode* headB) {
+        while (headA != headB) {
+            headA = headA->next;
+            headB = headB->next;
+        }
+        return headA;
+    }
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        unordered_set<ListNode*> uset;
-        ListNode* curr1 = headA;
-        ListNode* curr2 = headB;
-
-        while (curr1) {
-            uset.insert(curr1);
-            curr1=curr1->next;
+        int cntA = 0;
+        ListNode* currA = headA;
+        while (currA) {
+            currA = currA->next;
+            cntA++;
         }
-        while (curr2) {
-            if (uset.count(curr2)) return curr2;
-            curr2 = curr2->next;
+        int cntB = 0;
+        ListNode* currB = headB;
+        while (currB) {
+            currB = currB->next;
+            cntB++;
         }
-        return nullptr;
+        currA = headA;
+        currB = headB;
+        if (cntA > cntB) {
+            while (cntA != cntB) {
+                currA = currA->next;
+                cntA--;
+            }
+            return util(currA, currB);
+        }
+        while (cntB != cntA) {
+            currB = currB->next;
+            cntB--;
+        }
+        return util(currA, currB);
     }
 };
