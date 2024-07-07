@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0053-maximum-subarray) |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
 | [0152-maximum-product-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0152-maximum-product-subarray) |
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 ## Prefix Sum
@@ -233,4 +235,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
