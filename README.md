@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1803-average-waiting-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1803-average-waiting-time) |
+| [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Stack
 |  |
 | ------- |
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
+| [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Prefix Sum
 |  |
 | ------- |
