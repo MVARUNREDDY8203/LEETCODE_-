@@ -12,44 +12,37 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        if (!root) return {};
+        vector<vector<int>> lvls;
+        queue<pair<TreeNode*, int>> que;
+        que.push({root, 0});
 
-        queue<TreeNode*> que;
-        vector<int> ans;
-        que.push(root);
         while (!que.empty()) {
-            int size = que.size();
-            ans.push_back(que.back()->val);
-            for (int i=0; i<size; i++) {
-                if (que.front()->left) que.push(que.front()->left);
-                if (que.front()->right) que.push(que.front()->right);
-                que.pop();
+            TreeNode* curr = que.front().first;
+            int lvl = que.front().second;
+            que.pop();
+
+            if (curr == nullptr) continue;
+
+            // cout<<curr->val<<endl;
+            if (lvl+1 > lvls.size()) {
+                vector<int> new_lvl;
+                new_lvl.push_back(curr->val);
+                lvls.push_back(new_lvl);
+            } else {
+            // cout<<"here"<<endl;
+                lvls[lvl].push_back(curr->val);
             }
+
+            que.push({curr->left, lvl+1});
+            que.push({curr->right, lvl+1});
+        }
+
+        vector<int> ans;
+        for (int i=0; i<lvls.size(); i++) {
+            int size = lvls[i].size();
+            ans.push_back(lvls[i][size-1]);
         }
         return ans;
+
     }
 };
-// vector<int> rightSideView(TreeNode* root) {
-//     if (!root) return {};
-
-//     vector<vector<TreeNode*>> lvls;
-//     lvls.push_back({root});
-//     int i = 0;
-//     while (true) {
-//         vector<TreeNode*> temp;
-//         for (int j=0; j<lvls[i].size(); j++) {
-//             if(lvls[i][j]->left) temp.push_back(lvls[i][j]->left);
-//             if(lvls[i][j]->right) temp.push_back(lvls[i][j]->right);
-//         }
-//         if(temp.size() == 0) break;
-//         lvls.push_back(temp);
-//         i++;
-//     }
-
-//     vector<int> ans;
-//     for (auto i: lvls) {
-//         ans.push_back(i.back()->val);
-//     }
-    
-//     return ans;
-// }
