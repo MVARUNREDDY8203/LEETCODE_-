@@ -35,40 +35,42 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
+        if (data.empty()) return nullptr;
 
-        string curr_val = "";
-        int i=0, n = data.size();
-        while (i < n && data[i] != ',') curr_val += data[i++];
-        i++;
-        if (curr_val == "null") return nullptr;
+        stringstream ss(data);
+        string item;
+        vector<string> tokens;
+        while (getline(ss, item, ',')) {
+            tokens.push_back(item);
+        }
 
-        int val = stoi(curr_val);
+        if (tokens[0] == "null") return nullptr;
+
+        int val = stoi(tokens[0]);
         TreeNode* curr = new TreeNode(val);
         TreeNode* root_starter = new TreeNode(0, curr, nullptr);
 
         queue<TreeNode*> que;
         que.push(curr);
+        int i=1, n = tokens.size();
+        for (auto i: tokens) cout<<i<<endl;
         while (!que.empty()) {
             curr = que.front();
+            if (curr) cout<<curr->val<<" ";
             que.pop();
-            if (curr) cout<<curr->val<<endl;
 
-            curr_val = "";
-            while (i < n && data[i] != ',')  curr_val += data[i++];
-            i++;
-            if (!(curr_val == "null") && curr_val.size()) curr->left = new TreeNode(stoi(curr_val));
+            if (i < n) {
+                if (!(tokens[i] == "null")) curr->left = new TreeNode(stoi(tokens[i]));
+                i++;
+                if (!(tokens[i] == "null")) curr->right = new TreeNode(stoi(tokens[i]));
+                i++;
+            }
 
-            curr_val = "";
-            while (i < n && data[i] != ',')  curr_val += data[i++];
-            i++;
-            if (!(curr_val == "null") && curr_val.size()) curr->right = new TreeNode(stoi(curr_val));
-
-            if (curr->left) que.push(curr->left); 
+            if (curr->left) que.push(curr->left);
             if (curr->right) que.push(curr->right);
         }
 
         return root_starter->left;
-        return nullptr;
     }
 };
 
