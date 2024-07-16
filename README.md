@@ -132,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0053-maximum-subarray) |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+| [0120-triangle](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
@@ -234,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0053-maximum-subarray) |
+| [0120-triangle](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
