@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
 | [0647-palindromic-substrings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0647-palindromic-substrings) |
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
