@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 ## Bit Manipulation
 |  |
@@ -295,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 ## Database
 |  |
 | ------- |
@@ -303,4 +306,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0595-big-countries](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0595-big-countries) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
