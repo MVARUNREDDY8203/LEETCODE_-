@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0002-add-two-numbers) |
+| [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 ## Binary Search
 |  |
 | ------- |
@@ -240,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
@@ -285,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0199-binary-tree-right-side-view) |
+| [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Design
 |  |
