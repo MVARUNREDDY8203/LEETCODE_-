@@ -10,10 +10,10 @@ public:
 
         int take = 1 + dfs(i+1, m - len[i].first, n - len[i].second, len);
         int not_take = dfs(i+1, m, n, len);
-        // cout<<i<<" "<<take<<" "<<not_take<<endl;
         return dp[i][m][n] = max(take, not_take);
     }
     int findMaxForm(vector<string>& strs, int m, int n) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         vector<pair<int, int>> len(strs.size());
         memset(dp, -1, sizeof(dp));
         
@@ -23,10 +23,7 @@ public:
             len[i].first = zero_cnt;
             len[i].second = ones_cnt;
         }
-        // for (auto i: len) cout<<i.first<<" "<<i.second<<endl;
-        int ans = dfs(0, m, n, len);
-        // for (int i=0; i<n; i++)
-        // for (auto i: dp) cout<<i<<" ";
-        return ans;
+        return dfs(0, m, n, len);
+
     }
 };
