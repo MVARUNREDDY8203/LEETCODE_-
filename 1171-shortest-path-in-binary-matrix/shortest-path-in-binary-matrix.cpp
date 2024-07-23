@@ -1,6 +1,7 @@
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int m = grid.size(), n = grid[0].size();
         queue<vector<int>> que;
         que.push({0, 0, 1});
