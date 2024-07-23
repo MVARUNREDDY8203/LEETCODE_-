@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0053-maximum-subarray) |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
@@ -332,4 +333,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0221-maximal-square) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
