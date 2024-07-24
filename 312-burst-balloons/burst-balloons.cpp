@@ -18,6 +18,7 @@ public:
         return dp[l][r] = ans;
     }
     int maxCoins(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         vector<int> arr = {1};
         for (auto i: nums) arr.push_back(i);
         arr.push_back(1);
