@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0221-maximal-square) |
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
+| [0312-burst-balloons](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0312-burst-balloons) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0474-ones-and-zeroes) |
@@ -254,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0221-maximal-square) |
 | [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
+| [0312-burst-balloons](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0312-burst-balloons) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
