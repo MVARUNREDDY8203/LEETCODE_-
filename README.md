@@ -225,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0002-add-two-numbers) |
 | [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
+| [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 ## Binary Search
 |  |
 | ------- |
@@ -266,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1130-last-stone-weight-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1130-last-stone-weight-ii) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
+| [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Prefix Sum
@@ -341,4 +343,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0039-combination-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0040-combination-sum-ii) |
+## Combinatorics
+|  |
+| ------- |
+| [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 <!---LeetCode Topics End-->
