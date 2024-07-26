@@ -5,7 +5,7 @@ public:
     vector<int> last_used;
     int n = 0;
     int k = 0;
-    int dp[101][101][101];
+    int dp[101][101];
     int util(int i, int uq, int goal, int cnt) {
         int ans = 0;
         if (goal == 0) {
@@ -13,7 +13,7 @@ public:
             if (uq == n) return 1;
             return 0;
         }
-        if (dp[i][uq][goal] != -1) return dp[i][uq][goal];
+        if (dp[uq][goal] != -1) return dp[uq][goal];
 
 
         for (int j=1; j<=n; j++) {
@@ -41,7 +41,7 @@ public:
             }
         } 
 
-        return dp[i][uq][goal] = ans % MOD;
+        return dp[uq][goal] = ans % MOD;
 
         // if (k > 0) {
         //     for (int j=1; j<=n; j++) {
