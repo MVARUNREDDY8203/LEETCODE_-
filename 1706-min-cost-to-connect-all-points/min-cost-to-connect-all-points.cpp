@@ -2,6 +2,7 @@ class Solution {
 public:
 
     int minCostConnectPoints(vector<vector<int>>& points) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         unordered_set<int> graph;
         int np = 1e7;
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
