@@ -1,8 +1,8 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         vector<int> sig_reached(n+1, 0);
-        // map<pair<int, int>, int> edge;
         vector<vector<pair<int, int>>> adj(n+1);
         for (auto vec: times) {
             adj[vec[0]].push_back({vec[1], vec[2]});
