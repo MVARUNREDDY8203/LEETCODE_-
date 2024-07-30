@@ -293,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
+| [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
@@ -322,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0199-binary-tree-right-side-view) |
 | [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
@@ -375,13 +377,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
