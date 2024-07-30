@@ -8,14 +8,14 @@ public:
             edge[{src, dest}] = time;
         }
 
-        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
-        pq.push({0, 0, k});
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        pq.push({0, k});
         int ans = 0;
         while (!pq.empty()) {
-            int time = pq.top()[0];
-            int prev = pq.top()[1];
-            int curr = pq.top()[2];
-            cout<<prev<<" "<<curr<<" "<<time<<endl;
+            int time = pq.top().first;
+            // int prev = pq.top()[1];
+            int curr = pq.top().second;
+            cout<<" "<<curr<<" "<<time<<endl;
             pq.pop();
 
             if (sig_reached[curr]) continue;
@@ -25,7 +25,7 @@ public:
 
             for (int k=0; k<=n; k++) {
                 if (edge.count({curr, k})) {
-                    pq.push({time + edge[{curr, k}], curr, k});
+                    pq.push({time + edge[{curr, k}], k});
                 }
             }
         }
