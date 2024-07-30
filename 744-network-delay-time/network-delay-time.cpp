@@ -11,16 +11,18 @@ public:
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         pq.push({0, k});
         int ans = 0;
+        int m = 0;
         while (!pq.empty()) {
             int time = pq.top().first;
             int curr = pq.top().second;
-            cout<<" "<<curr<<" "<<time<<endl;
             pq.pop();
 
             if (sig_reached[curr]) continue;
 
             sig_reached[curr]++;
+            m++;
             ans = max(ans, time);
+            if (m == n) break;
 
             for (auto neighbour: adj[curr]) {
                 pq.push({time + neighbour.second, neighbour.first});
