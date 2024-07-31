@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges">1676. Minimum Number of Days to Eat N Oranges</a></h2><h3>Hard</h3><hr><p>There are <code>n</code> oranges in the kitchen and you decided to eat some of these oranges every day as follows:</p>
+<h2><a href="https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges">Minimum Number of Days to Eat N Oranges</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>There are <code>n</code> oranges in the kitchen and you decided to eat some of these oranges every day as follows:</p>
 
 <ul>
 	<li>Eat one orange.</li>
