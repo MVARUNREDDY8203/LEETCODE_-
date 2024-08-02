@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1803-average-waiting-time) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Stack
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0647-palindromic-substrings) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Recursion
 |  |
 | ------- |
@@ -228,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Math
 |  |
 | ------- |
@@ -244,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Bit Manipulation
 |  |
 | ------- |
