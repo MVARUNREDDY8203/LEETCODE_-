@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0018-4sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0018-4sum) |
 | [0039-combination-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0041-first-missing-positive) |
@@ -188,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0018-4sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0142-linked-list-cycle-ii) |
@@ -232,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
