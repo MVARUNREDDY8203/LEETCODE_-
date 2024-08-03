@@ -10,11 +10,10 @@ public:
             r++;
         }
         int ans = 0;
-        for (int i=0; i<=n; i++) {
-            ans = i+1;
-            if (i < n && nums[i] != i+1) break;
+        for (int i=0; i<n; i++) {
+            if (nums[i] != i+1) return i+1;
         }
-        return ans;
+        return n+1;
     }
 };
 
