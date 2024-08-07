@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0234-palindrome-linked-list) |
+| [0273-integer-to-english-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0273-integer-to-english-words) |
 ## Hash Table
 |  |
 | ------- |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0010-regular-expression-matching](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0010-regular-expression-matching) |
 | [0049-group-anagrams](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0049-group-anagrams) |
+| [0273-integer-to-english-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0273-integer-to-english-words) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0474-ones-and-zeroes) |
@@ -253,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0002-add-two-numbers) |
+| [0273-integer-to-english-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0273-integer-to-english-words) |
 | [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 | [0956-number-of-music-playlists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0956-number-of-music-playlists) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
