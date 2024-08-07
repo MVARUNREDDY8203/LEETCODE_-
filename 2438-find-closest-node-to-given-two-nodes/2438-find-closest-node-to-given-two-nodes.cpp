@@ -13,6 +13,7 @@ public:
         edges[i] = temp;
     }
     int closestMeetingNode(vector<int>& edges, int node1, int node2) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int n = edges.size();
         dfs1.resize(n+1, INT_MAX);
         dfs2.resize(n+1, INT_MAX);
@@ -23,7 +24,7 @@ public:
         int ans_val = INT_MAX;
         int ans_idx = -1;
 
-        for (int i =0; i<n; i++) cout<<dfs1[i]<<" "<<dfs2[i]<<endl;
+        // for (int i =0; i<n; i++) cout<<dfs1[i]<<" "<<dfs2[i]<<endl;
         for (int i=0; i<n; i++) {
             if (max(dfs1[i], dfs2[i]) < ans_val) {
                 ans_val = max(dfs1[i], dfs2[i]);
