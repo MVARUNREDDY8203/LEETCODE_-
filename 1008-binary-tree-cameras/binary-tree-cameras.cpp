@@ -13,7 +13,6 @@ class Solution {
 public: 
     int util(TreeNode* root) {
         if (!root) return 0;
-        if (!root->left && !root->right) return 'l';
 
         int left_tree = util(root->left);
         int right_tree = util(root->right);
@@ -38,7 +37,7 @@ public:
         return cnt;
     }
     int minCameraCover(TreeNode* root) {
-        if (!root->left && !root->right) return 1;
+        // if (!root->left && !root->right) return 1;
         util(root);
         if (root->val == 'l') root->val = 'c';
         return camera_counter(root);
