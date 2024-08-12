@@ -305,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0647-palindromic-substrings) |
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [0956-number-of-music-playlists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0956-number-of-music-playlists) |
+| [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
 | [1130-last-stone-weight-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1130-last-stone-weight-ii) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
@@ -332,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
+| [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Doubly-Linked List
@@ -348,12 +350,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
+| [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 ## Binary Tree
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
+| [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 ## Breadth-First Search
 |  |
 | ------- |
