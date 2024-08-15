@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
-        // int total = 0;
+        ios::sync_with_stdio(false); cin.tie(nullptr);
         int change[] = {0, 0};
         for (int i=0; i<bills.size(); i++) {
             if (bills[i] == 5) {
