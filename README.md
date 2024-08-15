@@ -166,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1803-average-waiting-time) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## String
 |  |
@@ -249,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2727-number-of-senior-citizens) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Sorting
@@ -466,6 +469,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Binary Search Tree
 |  |
