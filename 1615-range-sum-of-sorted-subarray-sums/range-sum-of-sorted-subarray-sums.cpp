@@ -1,6 +1,7 @@
 class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int mod = 1e9 + 7;
         vector<int> sa_sum;
         for (int i=0; i<n; i++) {
