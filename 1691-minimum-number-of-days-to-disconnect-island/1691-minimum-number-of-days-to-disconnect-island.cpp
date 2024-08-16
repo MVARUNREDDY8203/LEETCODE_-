@@ -23,11 +23,12 @@ public:
         return cnt;
     }
     int minDays(vector<vector<int>>& grid) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
+
         int m = grid.size(), n = grid[0].size();
         visited.resize(m, vector<int>(n, 0));
         int island_cnt = count_islands(grid);
         if (island_cnt == 0 || island_cnt > 1) return 0;
-        cout<<endl;
 
         for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
