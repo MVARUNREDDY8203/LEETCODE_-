@@ -9,68 +9,57 @@
  */
 class Codec {
 public:
-
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
+        if (!root) return "null";
         queue<TreeNode*> que;
-
         que.push(root);
-        string ser = "";
+        string ans = "";
         while (!que.empty()) {
             TreeNode* curr = que.front();
             que.pop();
-            
-            if (curr) {
-                ser += to_string(curr->val) + ",";
-
+            if (curr == nullptr) {
+                ans += "null,";
+            }
+            else {
+                ans += to_string(curr->val) + ",";
                 que.push(curr->left);
                 que.push(curr->right);
             }
-            else {
-                ser += "null,";
-            }
         }
-        return ser;
+        return ans;
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        if (data.empty()) return nullptr;
-
-        stringstream ss(data);
         string item;
-        vector<string> tokens;
+        stringstream ss(data);
+        vector<string> values;
         while (getline(ss, item, ',')) {
-            tokens.push_back(item);
+            values.push_back(item);
         }
 
-        if (tokens[0] == "null") return nullptr;
-
-        int val = stoi(tokens[0]);
-        TreeNode* curr = new TreeNode(val);
-        TreeNode* root_starter = new TreeNode(0, curr, nullptr);
-
+        if (values[0] == "null") return nullptr;
+        TreeNode* root = new TreeNode(stoi(values[0]));
         queue<TreeNode*> que;
-        que.push(curr);
-        int i=1, n = tokens.size();
-        for (auto i: tokens) cout<<i<<endl;
+        que.push(root);
+        int i=1;
         while (!que.empty()) {
-            curr = que.front();
-            if (curr) cout<<curr->val<<" ";
+            TreeNode* curr = que.front();
             que.pop();
 
-            if (i < n) {
-                if (!(tokens[i] == "null")) curr->left = new TreeNode(stoi(tokens[i]));
-                i++;
-                if (!(tokens[i] == "null")) curr->right = new TreeNode(stoi(tokens[i]));
-                i++;
+            string left_val = values[i++];
+            if (left_val != "null") {
+                curr->left = new TreeNode(stoi(left_val));
+                que.push(curr->left);
+            } 
+            string right_val = values[i++];
+            if (right_val != "null") {
+                curr->right = new TreeNode(stoi(right_val));
+                que.push(curr->right);
             }
-
-            if (curr->left) que.push(curr->left);
-            if (curr->right) que.push(curr->right);
         }
-
-        return root_starter->left;
+        return root;
     }
 };
 
