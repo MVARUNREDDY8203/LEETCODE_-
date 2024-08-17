@@ -234,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0160-intersection-of-two-linked-lists) |
 | [0560-subarray-sum-equals-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0560-subarray-sum-equals-k) |
+| [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -347,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
+| [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
 | [0684-redundant-connection](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
@@ -371,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
+| [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 ## Binary Tree
@@ -380,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
+| [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 ## Breadth-First Search
