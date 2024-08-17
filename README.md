@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0474-ones-and-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0560-subarray-sum-equals-k) |
+| [0624-maximum-distance-in-arrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
@@ -298,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
+| [0624-maximum-distance-in-arrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
