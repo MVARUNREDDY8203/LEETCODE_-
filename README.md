@@ -355,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
 | [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
+| [1300-critical-connections-in-a-network](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1300-critical-connections-in-a-network) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2438-find-closest-node-to-given-two-nodes) |
@@ -465,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1300-critical-connections-in-a-network](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1300-critical-connections-in-a-network) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Minimum Spanning Tree
@@ -501,4 +503,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+## Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1300-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
