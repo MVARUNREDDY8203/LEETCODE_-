@@ -25,6 +25,7 @@ public:
         return min_depth;
     }
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         adj.resize(n+1, vector<int>(0, {}));
         disc.resize(n+1, INT_MAX);
         processed.resize(n+1, 0);
