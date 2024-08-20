@@ -234,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0160-intersection-of-two-linked-lists) |
+| [0264-ugly-number-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0264-ugly-number-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0560-subarray-sum-equals-k) |
 | [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
@@ -273,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0002-add-two-numbers) |
+| [0264-ugly-number-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0273-integer-to-english-words) |
 | [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 | [0956-number-of-music-playlists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0956-number-of-music-playlists) |
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0221-maximal-square) |
+| [0264-ugly-number-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0279-perfect-squares) |
 | [0312-burst-balloons](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0312-burst-balloons) |
 | [0337-house-robber-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0337-house-robber-iii) |
@@ -462,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0264-ugly-number-ii) |
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
