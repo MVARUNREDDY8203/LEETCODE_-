@@ -28,6 +28,5 @@ public:
         memset(dp, -1, sizeof(dp));
 
         return util(n);
-        return n;
     }
 };
