@@ -12,7 +12,7 @@ public:
         return dp[a] = true;
     }
     int util(int n) {
-        if (isPrime(n)) return n;
+        if (n == 1) return 0;
 
         for (int i=2; i<=n; i++) {
             if (isPrime(i) && n % i == 0) {
@@ -24,7 +24,6 @@ public:
         return 0;
     }
     int minSteps(int n) {
-        if (n == 1) return 0;
         memset(dp, -1, sizeof(dp));
 
         return util(n);
