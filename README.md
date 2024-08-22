@@ -303,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0287-find-the-duplicate-number) |
+| [0476-number-complement](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0476-number-complement) |
 ## Simulation
 |  |
 | ------- |
