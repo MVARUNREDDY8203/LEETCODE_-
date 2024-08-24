@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0921-spiral-matrix-iii) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
+| [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1130-last-stone-weight-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1130-last-stone-weight-ii) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
+| [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -378,6 +380,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
+| [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 | [1300-critical-connections-in-a-network](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1300-critical-connections-in-a-network) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -422,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
+| [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -455,6 +459,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0221-maximal-square) |
 | [0921-spiral-matrix-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0921-spiral-matrix-iii) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
+| [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -479,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0684-redundant-connection](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
+| [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 ## Heap (Priority Queue)
