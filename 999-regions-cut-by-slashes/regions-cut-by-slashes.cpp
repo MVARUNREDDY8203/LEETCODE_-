@@ -3,7 +3,9 @@ public:
     
     int regionsBySlashes(vector<string>& grid) {
         int m = grid.size();
-        vector<vector<int>> nums(m*3, vector<int>(m*3, 0));
+        // vector<vector<int>> nums(m*3, vector<int>(m*3, 0));
+        int nums[90][90];
+        memset(nums, 0, sizeof(nums));
         for (int i=0; i<m; i++) {
             for (int j=0; j<grid[i].size(); j++) {
                 if (grid[i][j] == '/') {
@@ -30,14 +32,14 @@ public:
             }
         };
         int cnt = 0;
-        for (int i=0; i<nums.size(); i++)  {
-            for (int j=0; j<nums[0].size(); j++) {
+        for (int i=0; i<m*3; i++)  {
+            for (int j=0; j<m*3; j++) {
                 cout<<nums[i][j]<<" ";
             }
             cout<<endl;
         }
-        for (int i=0; i<nums.size(); i++)  {
-            for (int j=0; j<nums[0].size(); j++) {
+        for (int i=0; i<m*3; i++)  {
+            for (int j=0; j<m*3; j++) {
                 if (nums[i][j] == 0) {
                     cnt++;
                     marker(i, j);
