@@ -1,30 +1,20 @@
 class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
-        if (s.size() <= 10) return {};
-        unordered_map<string, int> dict;
-        for (int i=0; i<=s.size()-10; i++) dict[s.substr(i, 10)]++;
-        vector<string> ans;
-        for (auto i: dict) if (i.second >= 2) ans.push_back(i.first);
-        return ans;
+        unordered_map<string, int> ump;
+        int n = s.size();
+        unordered_set<string> ans;
+        for (int i=0; i<=n-10; i++) {
+            string t = s.substr(i, 10);
+            if (ump.count(t)) {
+                ans.insert(t);
+            }
+            ump[t]++;
+        }
+        vector<string> real_ans;
+        for (auto i: ans) {
+            real_ans.push_back(i);
+        }
+        return real_ans;
     }
 };
-
-// class Solution {
-// public:
-//     vector<string> findRepeatedDnaSequences(string s) {
-//         if (s.size() <= 10) return {};
-//         unordered_set<string> ans;
-//         unordered_set<string> dict;
-//         for (int i=0; i<=s.size()-10; i++) {
-//             string subs = s.substr(i, 10);
-//             if (dict.count(subs)) ans.insert(subs);
-//             else dict.insert(subs);
-//             cout<<i<<endl;
-//         }
-//         vector<string> vans;
-//         for (auto i: dict) cout<<i<<" ";
-//         for (auto i: ans) vans.push_back(i);
-//         return vans;
-//     }
-// };
