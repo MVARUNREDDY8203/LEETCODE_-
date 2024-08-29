@@ -8,24 +8,19 @@ public:
             x_adj[stones[i][0]].push_back(i);
             y_adj[stones[i][1]].push_back(i);
         }
-        // for (auto i: y_adj) {
-        //     cout<<i.first<<": ";
-        //     for (auto j: i.second) {
-        //         cout<<j<<" ";
-        //     }
-        //     cout<<endl;
-        // }
-        
+
         function<void(int)> dfs = [&](int i) -> void {
             if (!discarded.count(i)) {
 
                 discarded.insert(i);
-                for (int j=0; j<x_adj[stones[i][0]].size(); j++) {
-                    int neighbour = x_adj[stones[i][0]][j];
+                vector<int> *x_neighbours = &x_adj[stones[i][0]];
+                for (int j=0; j<x_neighbours->size(); j++) {
+                    int neighbour = (*x_neighbours)[j];
                     dfs(neighbour);
                 }
-                for (int j=0; j<y_adj[stones[i][1]].size(); j++) {
-                    int neighbour = y_adj[stones[i][1]][j];
+                vector<int> *y_neighbours = &y_adj[stones[i][1]];
+                for (int j=0; j<y_neighbours->size(); j++) {
+                    int neighbour = (*y_neighbours)[j];
                     dfs(neighbour);
                 }
             }
