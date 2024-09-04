@@ -1,8 +1,9 @@
 class Solution {
 public:
-    int dirs[4][4] = {{1, 0 , 0, 0}, {0, 1 , 0, 0}, {0, 0 , 1, 0}, {0, 0 , 0, 1}};  // N E S W
+    int dirs[4][2] = {{0,1}, {1,0}, {0,-1}, {-1,0}};  // N E S W
     int robotSim(vector<int>& cmds, vector<vector<int>>& obstacles) {
         ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
+        
         int n = cmds.size(), max_dist = 0;
         int x = 0, y = 0;
         set<pair<int, int>> obs;
@@ -23,10 +24,9 @@ public:
             }
             else {
                 int k = cmds[i];
-                cout<<ptr<<endl;
-                while (k > 0 && obs.find({x + dirs[ptr][1] - dirs[ptr][3], y + dirs[ptr][0] - dirs[ptr][2]}) == obs.end()) {
-                    x += dirs[ptr][1] - dirs[ptr][3];
-                    y += dirs[ptr][0] - dirs[ptr][2];
+                while (k > 0 && obs.find({x + dirs[ptr][0], y + dirs[ptr][1]}) == obs.end()) {
+                    x += dirs[ptr][0];
+                    y += dirs[ptr][1];
                     k--;
                 }
             }
