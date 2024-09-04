@@ -22,7 +22,6 @@ public:
     }
     void st_update(int idx, int update_idx, int l, int r, int update_val) {
         if (l == r) {
-            // A[update_idx] = update_val;
             st[idx] = update_val;
             return;
         }      
@@ -39,6 +38,7 @@ public:
         st[idx] = st[idx*2] + st[idx*2+1];
     }
     NumArray(vector<int>& nums) {
+        ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
         int n = nums.size();
         st.resize(4*n+1);
         for (auto i: nums) A.push_back(i);
