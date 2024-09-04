@@ -2,6 +2,7 @@ class Solution {
 public:
     int dirs[4][4] = {{1, 0 , 0, 0}, {0, 1 , 0, 0}, {0, 0 , 1, 0}, {0, 0 , 0, 1}};  // N E S W
     int robotSim(vector<int>& cmds, vector<vector<int>>& obstacles) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int n = cmds.size(), max_dist = 0;
         int x = 0, y = 0;
         set<pair<int, int>> obs;
@@ -29,8 +30,6 @@ public:
                     k--;
                 }
             }
-            // cout<<dirs[ptr][0]<<" "<<dir[1]<<" "<<dir[2]<<" "<<dir[3]<<endl;
-            cout<<x<<" "<<y<<endl;
             max_dist = max(max_dist, (x*x)+(y*y));
         }
         return max_dist;
