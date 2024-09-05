@@ -178,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2058-concatenation-of-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2058-concatenation-of-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2155-find-missing-observations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2294-minimum-time-to-complete-trips](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2294-minimum-time-to-complete-trips) |
@@ -309,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0956-number-of-music-playlists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0956-number-of-music-playlists) |
 | [1240-stone-game-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1240-stone-game-ii) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
+| [2155-find-missing-observations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2155-find-missing-observations) |
 ## Binary Search
 |  |
 | ------- |
@@ -339,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2058-concatenation-of-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2058-concatenation-of-array) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2155-find-missing-observations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2155-find-missing-observations) |
 ## Greedy
 |  |
 | ------- |
