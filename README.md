@@ -196,12 +196,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0776-n-ary-tree-postorder-traversal) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
 ## Linked List
 |  |
 | ------- |
@@ -276,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0273-integer-to-english-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0273-integer-to-english-words) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0392-is-subsequence) |
+| [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0474-ones-and-zeroes) |
 | [0564-find-the-closest-palindrome](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0564-find-the-closest-palindrome) |
@@ -348,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
