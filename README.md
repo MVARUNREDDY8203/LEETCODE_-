@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0416-partition-equal-subset-sum) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0474-ones-and-zeroes) |
+| [0503-next-greater-element-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0560-subarray-sum-equals-k) |
 | [0624-maximum-distance-in-arrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
+| [0503-next-greater-element-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0503-next-greater-element-ii) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0776-n-ary-tree-postorder-traversal) |
 ## Monotonic Stack
 |  |
@@ -204,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0084-largest-rectangle-in-histogram) |
 | [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
+| [0503-next-greater-element-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0503-next-greater-element-ii) |
 ## Linked List
 |  |
 | ------- |
