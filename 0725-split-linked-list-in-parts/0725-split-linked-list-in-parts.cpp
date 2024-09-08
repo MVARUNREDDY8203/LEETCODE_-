@@ -10,45 +10,36 @@
  */
 class Solution {
 public:
-    int length(ListNode* head){
-        if(head == NULL) return 0;
-        return 1 + length(head->next);
-    }
-    ListNode* splitter(ListNode* head, int rem){
-        if(head == NULL) return NULL;
-        if(rem == 1){
-            ListNode* temp = head->next;
-            head->next = NULL;
-            return temp;
-        }
-        return splitter(head->next, --rem);
-    }
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
-        int n = length(head);
-        vector<ListNode*> vec(k, NULL);
-
+        int n = 0;
         ListNode* curr = head;
-        int index = 0;
-
-        if(n/k < 1){
-            while(curr != NULL){
-                vec[index++] = curr;
-                curr = splitter(curr, 1);
-            }
-            return vec;
+        while (curr) {
+            n++;
+            curr = curr->next;
         }
 
-        int mod = n%k;
-        while(curr != NULL){
-            vec[index++] = curr;
-            if(mod > 0){
-                mod--;
-                curr = splitter(curr, n/k+1);
-            }
-            else{
-                curr = splitter(curr, n/k);
-            }
+        vector<int> npp(k, 0);
+        int idx = 0, m = n;
+        while (m > 0) {
+            npp[idx % k]++;
+            idx++;
+            m--;
         }
-        return vec;
+
+        curr = head;
+        vector<ListNode*> ans;
+        for (auto i: npp) {
+            int cnt = 1;
+            ListNode* curr_head = curr;
+            while (cnt < i && curr_head != nullptr) {
+                curr = curr->next;
+                cnt++;
+            }
+            ListNode* new_curr = curr ? curr->next : nullptr;
+            if (curr != nullptr) curr->next = nullptr;
+            ans.push_back(curr_head);
+            curr = new_curr;
+        }   
+        return ans;
     }
 };
