@@ -17,21 +17,21 @@ public:
             n++;
             curr = curr->next;
         }
-
-        vector<int> npp(k, 0);
-        int idx = 0, m = n;
-        while (m > 0) {
-            npp[idx % k]++;
-            idx++;
-            m--;
-        }
+        
+        int npp = n / k;
+        int rem = n % k;
 
         curr = head;
         vector<ListNode*> ans;
-        for (auto i: npp) {
+        for (int i=0; i<k; i++) {
             int cnt = 1;
             ListNode* curr_head = curr;
-            while (cnt < i && curr_head != nullptr) {
+            int curr_npp = npp;
+            if (rem) {
+                curr_npp++;
+                rem--;
+            }
+            while (cnt < curr_npp && curr_head != nullptr) {
                 curr = curr->next;
                 cnt++;
             }
