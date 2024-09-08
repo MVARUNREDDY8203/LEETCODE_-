@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0234-palindrome-linked-list) |
+| [0725-split-linked-list-in-parts](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0725-split-linked-list-in-parts) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1484-linked-list-in-binary-tree) |
 ## Two Pointers
