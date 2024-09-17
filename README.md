@@ -190,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2411-spiral-matrix-iv](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2411-spiral-matrix-iv) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2727-number-of-senior-citizens](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2727-number-of-senior-citizens) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
@@ -356,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1435-xor-queries-of-a-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Simulation
 |  |
 | ------- |
@@ -645,4 +647,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
