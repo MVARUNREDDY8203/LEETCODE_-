@@ -1,24 +1,16 @@
 class MyCalendar {
 public:
-    vector<pair<int, int>> cal;
+    vector<pair<int, int>> booklet;
     MyCalendar() {
-        
     }
     
     bool book(int start, int end) {
-        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
-        // sort(cal.begin(), cal.end(), [](const pair<int, int> &a, const pair<int, int> &b) {return a.first < b.first;});
-        // for (auto i: cal) cout<<" ["<<i.first<<" "<<i.second<<"], ";
-        // cout<<endl;
-        for (int i=0; i<cal.size(); i++) {
-
-            if (start >= cal[i].first && start < cal[i].second) return false;
-            if (end > cal[i].first && end <= cal[i].second) return false;
-
-            if (cal[i].first >= start && cal[i].first < end) return false;
-            if (cal[i].second > start && cal[i].second <= end) return false;
+        for (int i=0; i<booklet.size(); i++) {
+            if (booklet[i].first <= start && start <= booklet[i].second) return false;
+            if (booklet[i].first <= end-1 && end-1 <= booklet[i].second) return false;
+            if (start <= booklet[i].first && booklet[i].second <= end-1) return false;
         }
-        cal.push_back({start, end});
+        booklet.push_back({start, end-1});
         return true;
     }
 };
