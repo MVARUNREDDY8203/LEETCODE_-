@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0776-n-ary-tree-postorder-traversal) |
 ## Monotonic Stack
 |  |
@@ -303,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0592-fraction-addition-and-subtraction](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0592-fraction-addition-and-subtraction) |
 | [0647-palindromic-substrings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0647-palindromic-substrings) |
 | [0664-strange-printer](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0664-strange-printer) |
+| [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
@@ -384,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0624-maximum-distance-in-arrays) |
+| [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -410,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0664-strange-printer) |
+| [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [0956-number-of-music-playlists](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0956-number-of-music-playlists) |
 | [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
