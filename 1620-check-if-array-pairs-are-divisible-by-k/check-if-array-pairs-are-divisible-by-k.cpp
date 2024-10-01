@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool canArrange(vector<int>& arr, int k) {
+        ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
         unordered_map<int, int> ump;
         int n = arr.size();
         for (int i=0; i<n; i++) {
@@ -13,7 +14,6 @@ public:
                 return ump[l] % 2 == 0;
             }
             if (ump[l] != ump[r]) return false;
-            cout<<l<<" "<<ump[l]<<" "<<r<<" "<<ump[r]<<endl;
             l++;
             r--;
         }
