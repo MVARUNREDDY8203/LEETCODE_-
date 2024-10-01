@@ -176,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1435-xor-queries-of-a-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1435-xor-queries-of-a-subarray) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
@@ -625,6 +627,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
