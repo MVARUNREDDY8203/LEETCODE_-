@@ -14,6 +14,7 @@ public:
     Node* low;
     unordered_map<string, Node*> ump;
     AllOne() {
+        ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
         high = new Node(0);
         low = new Node(-1);
         high->next = low;
