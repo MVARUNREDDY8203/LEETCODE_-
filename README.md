@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1325-path-with-maximum-probability](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1325-path-with-maximum-probability) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1435-xor-queries-of-a-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1435-xor-queries-of-a-subarray) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -534,6 +536,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0859-design-circular-deque) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Database
 |  |
 | ------- |
