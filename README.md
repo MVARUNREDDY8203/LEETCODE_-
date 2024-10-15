@@ -197,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2411-spiral-matrix-iv) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2727-number-of-senior-citizens](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
@@ -407,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
@@ -618,6 +620,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1325-path-with-maximum-probability](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Graph
 |  |
 | ------- |
