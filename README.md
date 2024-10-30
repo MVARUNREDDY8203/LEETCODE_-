@@ -181,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1803-average-waiting-time) |
 | [1923-sentence-similarity-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1923-sentence-similarity-iii) |
@@ -373,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2294-minimum-time-to-complete-trips](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2294-minimum-time-to-complete-trips) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -408,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3195-separate-black-and-white-balls) |
@@ -445,6 +448,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1676-minimum-number-of-days-to-eat-n-oranges](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1676-minimum-number-of-days-to-eat-n-oranges) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
