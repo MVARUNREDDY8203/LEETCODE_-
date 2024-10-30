@@ -25,6 +25,7 @@ public:
         return dpb[prev] = ans;
     }
     int minimumMountainRemovals(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         memset(dpf, -1, sizeof(dpf));
         memset(dpb, -1, sizeof(dpb));
 
