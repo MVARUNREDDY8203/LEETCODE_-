@@ -198,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2411-spiral-matrix-iv) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2554-minimum-total-distance-traveled](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2554-minimum-total-distance-traveled) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2727-number-of-senior-citizens](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2727-number-of-senior-citizens) |
@@ -346,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2554-minimum-total-distance-traveled](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2554-minimum-total-distance-traveled) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
@@ -452,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
+| [2554-minimum-total-distance-traveled](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2554-minimum-total-distance-traveled) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
