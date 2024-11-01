@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2554-minimum-total-distance-traveled](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2554-minimum-total-distance-traveled) |
+| [2586-longest-square-streak-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2727-number-of-senior-citizens](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2727-number-of-senior-citizens) |
@@ -301,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2586-longest-square-streak-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## String
@@ -349,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2554-minimum-total-distance-traveled](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2554-minimum-total-distance-traveled) |
+| [2586-longest-square-streak-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2586-longest-square-streak-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
@@ -381,6 +384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2294-minimum-time-to-complete-trips](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2294-minimum-time-to-complete-trips) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2586-longest-square-streak-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2586-longest-square-streak-in-an-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -456,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2554-minimum-total-distance-traveled](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2554-minimum-total-distance-traveled) |
+| [2586-longest-square-streak-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2586-longest-square-streak-in-an-array) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
