@@ -326,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0664-strange-printer](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0664-strange-printer) |
 | [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
+| [0812-rotate-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
@@ -720,4 +721,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0859-design-circular-deque) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
