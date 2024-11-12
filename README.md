@@ -293,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0432-all-oone-data-structure](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0432-all-oone-data-structure) |
 | [0560-subarray-sum-equals-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0560-subarray-sum-equals-k) |
 | [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
+| [0676-implement-magic-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0676-implement-magic-dictionary) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [0906-walking-robot-simulation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0906-walking-robot-simulation) |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0592-fraction-addition-and-subtraction](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0592-fraction-addition-and-subtraction) |
 | [0647-palindromic-substrings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0647-palindromic-substrings) |
 | [0664-strange-printer](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0664-strange-printer) |
+| [0676-implement-magic-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0676-implement-magic-dictionary) |
 | [0678-valid-parenthesis-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0812-rotate-string) |
@@ -498,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0386-lexicographical-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0386-lexicographical-numbers) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
 | [0652-find-duplicate-subtrees](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0652-find-duplicate-subtrees) |
+| [0676-implement-magic-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0676-implement-magic-dictionary) |
 | [0684-redundant-connection](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
@@ -571,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0307-range-sum-query-mutable](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0307-range-sum-query-mutable) |
 | [0432-all-oone-data-structure](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0432-all-oone-data-structure) |
+| [0676-implement-magic-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0676-implement-magic-dictionary) |
 | [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -628,6 +632,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0386-lexicographical-numbers](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0472-concatenated-words](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0472-concatenated-words) |
+| [0676-implement-magic-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0676-implement-magic-dictionary) |
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
 ## Union Find
 |  |
