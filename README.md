@@ -175,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1325-path-with-maximum-probability](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1325-path-with-maximum-probability) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1435-xor-queries-of-a-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1435-xor-queries-of-a-subarray) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0539-minimum-time-difference) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -387,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0731-my-calendar-ii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -608,6 +611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -650,6 +654,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1325-path-with-maximum-probability](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1325-path-with-maximum-probability) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
