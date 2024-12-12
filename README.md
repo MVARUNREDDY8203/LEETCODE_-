@@ -214,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3463-alternating-groups-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3463-alternating-groups-i) |
 | [3593-find-the-maximum-factor-score-of-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3593-find-the-maximum-factor-score-of-array) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
+| [3608-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3608-find-the-number-of-subsequences-with-equal-gcd) |
 ## Stack
 |  |
 | ------- |
@@ -389,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3593-find-the-maximum-factor-score-of-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3593-find-the-maximum-factor-score-of-array) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
+| [3608-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3608-find-the-number-of-subsequences-with-equal-gcd) |
 ## Binary Search
 |  |
 | ------- |
@@ -493,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2755-extra-characters-in-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
+| [3608-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3608-find-the-number-of-subsequences-with-equal-gcd) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -751,6 +754,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3593-find-the-maximum-factor-score-of-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3593-find-the-maximum-factor-score-of-array) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
+| [3608-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3608-find-the-number-of-subsequences-with-equal-gcd) |
 ## Brainteaser
 |  |
 | ------- |
