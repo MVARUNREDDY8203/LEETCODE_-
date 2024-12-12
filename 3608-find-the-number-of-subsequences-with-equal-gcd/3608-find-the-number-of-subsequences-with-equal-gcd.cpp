@@ -14,8 +14,8 @@ public:
 
         ll ans = 0;
         ll dont_take = util(i+1, gcd1, gcd2, nums);
-        ll take1 = util(i+1, __gcd(gcd1, nums[i]), gcd2, nums);
-        ll take2 = util(i+1, gcd1, __gcd(gcd2, nums[i]), nums);
+        ll take1 = util(i+1, gcd(gcd1, nums[i]), gcd2, nums);
+        ll take2 = util(i+1, gcd1, gcd(gcd2, nums[i]), nums);
 
         return dp[i][gcd1][gcd2] = (dont_take + take1 + take2) % mod;
     }
