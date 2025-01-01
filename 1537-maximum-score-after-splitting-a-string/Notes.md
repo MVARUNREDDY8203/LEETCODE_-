@@ -1,1 +1,1 @@
-<h2>maximum-score-after-splitting-a-string Notes</h2><hr>[ Time taken: 5 m 7 s ]
+<h2>maximum-score-after-splitting-a-string Notes</h2><hr>[ Time taken: 10 m 28 s ]
