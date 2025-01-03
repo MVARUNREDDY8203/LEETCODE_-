@@ -184,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -349,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1302-delete-characters-to-make-fancy-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
 | [1923-sentence-similarity-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1923-sentence-similarity-iii) |
@@ -489,6 +491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1676-minimum-number-of-days-to-eat-n-oranges](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1676-minimum-number-of-days-to-eat-n-oranges) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
