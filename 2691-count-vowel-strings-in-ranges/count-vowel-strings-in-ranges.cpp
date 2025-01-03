@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         vector<int> cache(words.size(), 0);
 
         string vowels = "aeiou";
@@ -10,10 +11,10 @@ public:
             for (int j=0; j<5; j++) {
                 if (words[i][0] == vowels[j]) cnt++;
                 if (words[i][words[i].size()-1] == vowels[j]) cnt++;
+                if (cnt == 2) break;
             }
             if (cnt == 2) cache[i]++;
             if (i > 0) cache[i] += cache[i-1];
-            cout<<cache[i]<<" ";
         }
 
         vector<int> ans;
