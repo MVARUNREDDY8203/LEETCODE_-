@@ -1,8 +1,7 @@
 class Solution {
 public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
-        int cache[100001];
-        memset(cache, 0, sizeof(cache));
+        vector<int> cache(words.size(), 0);
 
         string vowels = "aeiou";
         int n = words.size();
