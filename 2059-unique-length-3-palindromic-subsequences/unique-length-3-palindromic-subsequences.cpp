@@ -9,18 +9,16 @@ public:
             lo[s[i] - 'a'] = max(lo[s[i] - 'a'], i);
         }
 
-        unordered_map<string, int> ump;
+        unordered_map<int, unordered_set<int>> ump;
         for (int i=1; i<n-1; i++) {
             for (int j=0; j<26; j++) {
                 if (fo[j] < i && i < lo[j]) {
-                    string t = "";
-                    t += (fo[j] + 'a');
-                    t += s[i];
-                    t += (fo[j] + 'a');
-                    ump[t]++;
+                    ump[j].insert(s[i]);
                 }
             }
         }
-        return ump.size();
+        int ans = 0;
+        for (int j=0; j<26; j++) ans += ump[j].size();
+        return ans;
     }
 };
