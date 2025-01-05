@@ -1,6 +1,7 @@
 class Solution {
 public:
     string shiftingLetters(string s, vector<vector<int>>& shifts) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         unordered_map<int, int> shift;
         for (int i=0; i<shifts.size(); i++) {
             shift[shifts[i][0]] += (shifts[i][2] == 1 ? 1 : -1);
