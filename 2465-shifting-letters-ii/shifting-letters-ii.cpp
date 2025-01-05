@@ -9,7 +9,7 @@ public:
         int net_shift = 0;
         for (int i=0; i<s.size(); i++) {
             net_shift += shift[i];
-            s[i] = ((((s[i] - 'a') + net_shift + 26 * 100000) % 26) + 'a');
+            s[i] = ((((s[i] - 'a') + net_shift + 26 * 10000) % 26) + 'a');
         }
         
         return s;
