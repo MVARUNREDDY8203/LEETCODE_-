@@ -11,7 +11,7 @@ public:
             else fl[s[i]] = {i, i};
         }
 
-        unordered_set<string> uset;
+        unordered_map<string, int> uset;
         for (int i=0; i<n; i++) {
             for (auto it: fl) {
                 if (it.second.first < it.second.second && i > it.second.first  && i < it.second.second) {
@@ -19,7 +19,7 @@ public:
                     t += (char)it.first;
                     t += s[i];
                     t += (char)it.first;
-                    uset.insert(t);
+                    uset[t]++;
                 } 
             }
         }
