@@ -1,29 +1,24 @@
 class Solution {
 public:
     int countPalindromicSubsequence(string s) {
-        unordered_map<int, pair<int, int>> fl;
+        vector<int> fo(26, 100001);
+        vector<int> lo(26, -1);
         int n = s.size();
         for (int i=0; i<n; i++) {
-            if (fl.count(s[i])) {
-                fl[s[i]].first = min(fl[s[i]].first, i);
-                fl[s[i]].second = max(fl[s[i]].second, i);
-            }
-            else fl[s[i]] = {i, i};
+            fo[s[i] - 'a'] = min(fo[s[i] - 'a'], i);
+            lo[s[i] - 'a'] = max(lo[s[i] - 'a'], i);
         }
 
-        unordered_map<string, int> uset;
-        for (int i=0; i<n; i++) {
-            for (auto it: fl) {
-                if (it.second.first < it.second.second && i > it.second.first  && i < it.second.second) {
-                    string t = "";
-                    t += (char)it.first;
-                    t += s[i];
-                    t += (char)it.first;
-                    uset[t]++;
-                } 
+        unordered_map<int, unordered_set<int>> ump;
+        for (int i=1; i<n-1; i++) {
+            for (int j=0; j<26; j++) {
+                if (fo[j] < i && i < lo[j]) {
+                    ump[j].insert(s[i]);
+                }
             }
         }
-
-        return uset.size();
+        int ans = 0;
+        for (int j=0; j<26; j++) ans += ump[j].size();
+        return ans;
     }
 };
