@@ -1,51 +1,48 @@
 class Solution {
 public:
     vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
-        int n = nums.size(), curr = 0;
-        for (int i=0; i<k; i++) curr += nums[i];
-        vector<int> psm;
-        psm.push_back(curr);
-        for (int i=k; i<n; i++) {
-            curr += nums[i];
-            curr -= nums[i-k];
-            psm.push_back(curr);
+        vector<int> prefix;
+        int window = 0;
+        for (int i=0; i<k; i++) window += nums[i];
+        prefix.push_back(window);
+        for (int i=k; i<nums.size(); i++) {
+            window += nums[i];
+            window -= nums[i-k];
+            prefix.push_back(window);
         }
-        vector<pair<int, int>> left;
-        left.push_back({psm[0],0});
-        for (int i=1; i<psm.size(); i++) {
-            if (psm[i] > left.back().first) {
-                left.push_back({psm[i], i});
+
+        vector<vector<int>> dp(nums.size(), vector<int>(4, -1));
+        function<int(int, int)> util = [&](int i, int rem) -> int {
+            if (rem <= 0) return 0;
+            if (i >= prefix.size()) return 0;
+
+            if (dp[i][rem] != -1) return dp[i][rem];
+            // dont take
+            int dont_take = util(i+1, rem);
+            int take = prefix[i] + util(i+k, rem-1);
+
+            return dp[i][rem] = max(dont_take, take);
+        };
+        util(0, 3);
+
+        vector<int> indices;
+        function <void(int, int)> dfs = [&](int i, int rem) -> void {
+            if (rem <= 0) return;
+            if (i >= prefix.size()) return;
+
+            int take = prefix[i] + util(i+k, rem-1);
+            int dont_take = util(i+1, rem);
+
+            if (take >= dont_take) {
+                indices.push_back(i);
+                dfs(i+k, rem-1);
             }
-            else left.push_back(left.back());
-        }
-        vector<pair<int, int>> right;
-        right.push_back({psm.back(), psm.size()-1});
-        for (int i=psm.size()-2; i>=0; i--) {
-            if (psm[i] >= right.back().first) right.push_back({psm[i], i});
-            else right.push_back(right.back());
-        }
-        reverse(right.begin(), right.end());
-        for (auto i: psm) cout<<i<<" ";
-        cout<<endl;
-        for (auto i: left) cout<<i.first<<" ";
-        cout<<endl;
-        for (auto i: right) cout<<i.first<<" ";
-        cout<<endl;
-
-        vector<int> ans = {-1, -1, -1};
-        int maxsum = 0;
-        for (int i=k; i+k+k-1<n; i++) {
-            int currsum = psm[i] + left[i-k].first + right[i+k].first;
-            if (currsum > maxsum) {
-                cout<<currsum<<" "<<maxsum<<endl;
-                for (auto i: ans) cout<<i<<" ";
-                cout<<endl;
-
-                maxsum = currsum;
-                ans = {left[i-k].second, i, right[i+k].second};
+            else {
+                dfs(i+1, rem);
             }
-        }
-
-        return ans;
+        };
+        dfs(0, 3);
+        
+        return indices;
     }
 };
