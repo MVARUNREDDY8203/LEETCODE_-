@@ -203,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2294-minimum-time-to-complete-trips](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2294-minimum-time-to-complete-trips) |
 | [2358-number-of-ways-to-split-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2358-number-of-ways-to-split-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -368,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2727-number-of-senior-citizens) |
@@ -803,5 +805,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0812-rotate-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 <!---LeetCode Topics End-->
