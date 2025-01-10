@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0921-spiral-matrix-iii) |
+| [0952-word-subsets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0952-word-subsets) |
 | [0971-shortest-bridge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0971-shortest-bridge) |
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1025-minimum-cost-for-tickets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1025-minimum-cost-for-tickets) |
@@ -318,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0740-delete-and-earn](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0740-delete-and-earn) |
 | [0906-walking-robot-simulation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -355,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1250-longest-common-subsequence](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1302-delete-characters-to-make-fancy-string) |
