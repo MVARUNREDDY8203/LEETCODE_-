@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -374,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -476,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1502-construct-k-palindrome-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1502-construct-k-palindrome-strings) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2716-prime-subtraction-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3195-separate-black-and-white-balls) |
