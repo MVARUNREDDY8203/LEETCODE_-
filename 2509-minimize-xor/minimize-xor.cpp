@@ -12,16 +12,12 @@ public:
         while (n1) {
             cout<<n1<<endl;
             if (n1 % 2) {
-                cout<<"yea"<<endl;
                 bits[idx] = 1;
                 s1++;
             }
             idx--;
             n1 /= 2;
         }
-        for (int i=0; i<32; i++) cout<<bits[i]<<" ";
-        cout<<endl;
-        cout<<s1<<" "<<s2<<endl;
 
         if (s2 < s1) {
             for (int i=0; i<32; i++) {
@@ -40,8 +36,6 @@ public:
                 }
             }
         }
-        for (int i=0; i<32; i++) cout<<bits[i]<<" ";
-        cout<<endl;
         int ans = bits[0];
         for (int i=1; i<32; i++) {
             ans *= 2;
