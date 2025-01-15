@@ -459,6 +459,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2509-minimize-xor](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Simulation
 |  |
@@ -486,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1804-maximum-binary-string-after-change](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1804-maximum-binary-string-after-change) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2509-minimize-xor](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2716-prime-subtraction-operation](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/3195-separate-black-and-white-balls) |
