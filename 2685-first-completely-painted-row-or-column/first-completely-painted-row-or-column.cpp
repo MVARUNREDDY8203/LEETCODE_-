@@ -1,6 +1,7 @@
 class Solution {
 public:
     int firstCompleteIndex(vector<int>& arr, vector<vector<int>>& mat) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int m = mat.size(), n = mat[0].size();
         vector<int> cols(n, 0);
         vector<int> rows(m, 0);
