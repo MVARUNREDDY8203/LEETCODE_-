@@ -202,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2058-concatenation-of-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2058-concatenation-of-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2145-grid-game](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2145-grid-game) |
 | [2155-find-missing-observations](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -562,6 +563,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2145-grid-game](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -696,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2145-grid-game](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2145-grid-game) |
 | [2411-spiral-matrix-iv](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2411-spiral-matrix-iv) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
