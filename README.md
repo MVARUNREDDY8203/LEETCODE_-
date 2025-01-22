@@ -195,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1803-average-waiting-time) |
+| [1876-map-of-highest-peak](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1876-map-of-highest-peak) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1923-sentence-similarity-iii) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -649,6 +650,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1484-linked-list-in-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
+| [1876-map-of-highest-peak](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1876-map-of-highest-peak) |
 | [2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip) |
 ## Design
 |  |
@@ -696,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
+| [1876-map-of-highest-peak](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1876-map-of-highest-peak) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/2145-grid-game) |
