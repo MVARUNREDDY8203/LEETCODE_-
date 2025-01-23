@@ -179,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1240-stone-game-ii) |
 | [1325-path-with-maximum-probability](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1325-path-with-maximum-probability) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1393-maximum-value-of-k-coins-from-piles) |
+| [1396-count-servers-that-communicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1396-count-servers-that-communicate) |
 | [1435-xor-queries-of-a-subarray](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1435-xor-queries-of-a-subarray) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -591,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1008-binary-tree-cameras) |
 | [1300-critical-connections-in-a-network](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1300-critical-connections-in-a-network) |
+| [1396-count-servers-that-communicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1396-count-servers-that-communicate) |
 | [1484-linked-list-in-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
@@ -647,6 +649,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1396-count-servers-that-communicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1396-count-servers-that-communicate) |
 | [1484-linked-list-in-binary-tree](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
@@ -695,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1396-count-servers-that-communicate) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
@@ -732,6 +736,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0721-accounts-merge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0999-regions-cut-by-slashes) |
+| [1396-count-servers-that-communicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1396-count-servers-that-communicate) |
 | [1706-min-cost-to-connect-all-points](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1753-path-with-minimum-effort) |
 ## Heap (Priority Queue)
@@ -774,6 +779,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1396-count-servers-that-communicate](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/MVARUNREDDY8203/LEETCODE_-/tree/master/1786-count-the-number-of-consistent-strings) |
