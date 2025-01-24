@@ -1,45 +1,33 @@
 class Solution {
 public:
-    int n = 0;
-    unordered_set<int> visited;
-    unordered_set<int> safe;
-    unordered_set<int> unsafe;
-
-    bool dfs(int i, vector<vector<int>>& graph) {
-        if (unsafe.count(i)) return false;
-        if (safe.count(i)) return true;
-
-        if (visited.count(i)) return false;
-        visited.insert(i);
-        
-        if (graph[i].size() == 0) {
-            safe.insert(i);
-            return true;
-        }
-
-        bool flag = true;
-        for (auto &e : graph[i]) {
-            flag &= dfs(e, graph);
-
-            if (!flag) {
-                unsafe.insert(i);
-                break;
-            }
-        }
-        if (flag) {
-            safe.insert(i);
-        }
-
-        return flag;
-    }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        vector<int> ans;
-        n = graph.size();
+        short n = graph.size();
+        char isSafe[10001];
+        char vis[10001];
+        memset(isSafe, -1, sizeof(isSafe));
+        memset(vis, 0, sizeof(vis));
 
-        for (int i=0; i<n; i++) {
-            visited.clear();
-            if (dfs(i, graph)) ans.push_back(i);
+        function<bool(short)> dfs = [&](short i) -> bool {
+            if (vis[i]) return isSafe[i] = 0;
+            if (graph[i].size() == 0) return isSafe[i] = 1;
+            if (isSafe[i] != -1) return isSafe[i];
+
+            vis[i] = 1;
+            for (short j = 0; j<graph[i].size(); j++) {
+                if (!dfs(graph[i][j])) {
+                    return isSafe[i] = 0;
+                }
+            }
+            vis[i] = 0;
+
+            return isSafe[i] = 1;
+        };
+        vector<int> ans;
+        for (short i=0; i<graph.size(); i++) {
+            dfs(i);
+            if (isSafe[i]) ans.push_back(i);
         }
+        
         return ans;
     }
 };
