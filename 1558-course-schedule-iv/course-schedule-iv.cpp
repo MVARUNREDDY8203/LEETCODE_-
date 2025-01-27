@@ -1,6 +1,8 @@
 class Solution {
 public:
     vector<bool> checkIfPrerequisite(int n, vector<vector<int>>& pre, vector<vector<int>>& queries) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
+        
         short cache[101][101];
         memset(cache, -1, sizeof(cache));
 
@@ -28,24 +30,11 @@ public:
             return cache[i][target] = false;
         };
         
-        for (int i=0; i<3; i++) {
-            for (int j=0; j<3; j++) {
-                cout<<cache[i][j]<<" ";
-            }
-            cout<<endl;
-        }
-
-        for (int i=0; i<n; i++) {
-            cout<<i<<" : ";
-            for (int j=0; j<graph[i].size(); j++) {
-                cout<<graph[i][j]<<" ";
-            }
-            cout<<endl;
-        }
         vector<bool> ans(queries.size(), 0);
         for (int i=0; i<queries.size(); i++) {
             ans[i] = dfs(queries[i][0], queries[i][1]);
         }
+
         return ans;
     }
 };
