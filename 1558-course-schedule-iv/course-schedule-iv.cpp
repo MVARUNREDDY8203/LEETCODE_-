@@ -2,13 +2,13 @@ class Solution {
 public:
     vector<bool> checkIfPrerequisite(int n, vector<vector<int>>& pre, vector<vector<int>>& queries) {
         ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
-        
+
         short cache[101][101];
         memset(cache, -1, sizeof(cache));
 
         vector<vector<int>> graph(n+1, vector<int>(0));
-        for (int i=0; i<pre.size(); i++) {
-            graph[pre[i][0]].push_back(pre[i][1]);
+        for (auto i: pre) {
+            graph[i[0]].push_back(i[1]);
         }
 
         bool vis[101];
@@ -31,8 +31,9 @@ public:
         };
         
         vector<bool> ans(queries.size(), 0);
-        for (int i=0; i<queries.size(); i++) {
-            ans[i] = dfs(queries[i][0], queries[i][1]);
+        int k = 0;
+        for (auto i: queries) {
+            ans[k++] = dfs(i[0], i[1]);
         }
 
         return ans;
