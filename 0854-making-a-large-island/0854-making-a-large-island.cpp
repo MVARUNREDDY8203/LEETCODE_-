@@ -1,13 +1,12 @@
 class Solution {
 public:
     int largestIsland(vector<vector<int>>& grid) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int n = grid.size();
         bool vis[501][501];
         int csize[501][501];
         int cno[501][501];
-        // memset(vis, 0, sizeof(vis));
-        // memset(csize, -1, sizeof(csize));
-        // memset(cno, 0, sizeof(cno));
+        
         for (int i=0; i<n; i++) {
             for (int j=0; j<n; j++) {
                 vis[i][j] = 0;
@@ -108,4 +107,3 @@ public:
         return ans;
     }
 };
-
