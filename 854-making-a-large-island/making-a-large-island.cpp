@@ -1,18 +1,17 @@
 class Solution {
 public:
     int largestIsland(vector<vector<int>>& grid) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int n = grid.size();
         bool vis[501][501];
         int csize[501][501];
-        int cno[501][501];
-        // memset(vis, 0, sizeof(vis));
-        // memset(csize, -1, sizeof(csize));
-        // memset(cno, 0, sizeof(cno));
+        // int grid[501][501];
+        
         for (int i=0; i<n; i++) {
             for (int j=0; j<n; j++) {
                 vis[i][j] = 0;
                 csize[i][j] = -1;
-                cno[i][j] = 0;
+                // grid[i][j] = 0;
             }
         }
 
@@ -45,24 +44,24 @@ public:
 
             
             unordered_set<int> cset;
-            if (i-1 >= 0 && grid[i-1][j] && !cset.count(cno[i-1][j])) {
+            if (i-1 >= 0 && grid[i-1][j] && !cset.count(grid[i-1][j])) {
                 cnt2 += csize[i-1][j];
-                cset.insert(cno[i-1][j]);
+                cset.insert(grid[i-1][j]);
             }
 
-            if (j-1 >= 0 && grid[i][j-1] &&  !cset.count(cno[i][j-1])) {
+            if (j-1 >= 0 && grid[i][j-1] &&  !cset.count(grid[i][j-1])) {
                 cnt2 += csize[i][j-1];
-                cset.insert(cno[i][j-1]);
+                cset.insert(grid[i][j-1]);
             }
 
-            if (i+1 < n &&  grid[i+1][j] && !cset.count(cno[i+1][j])) {
+            if (i+1 < n &&  grid[i+1][j] && !cset.count(grid[i+1][j])) {
                 cnt2 += csize[i+1][j]; 
-                cset.insert(cno[i+1][j]);
+                cset.insert(grid[i+1][j]);
             }
 
-            if (j+1 < n && grid[i][j+1] && !cset.count(cno[i][j+1])) {
+            if (j+1 < n && grid[i][j+1] && !cset.count(grid[i][j+1])) {
                 cnt2 += csize[i][j+1]; 
-                cset.insert(cno[i][j+1]);
+                cset.insert(grid[i][j+1]);
             }
             return cnt2;
         };
@@ -77,7 +76,7 @@ public:
 
                 if (i < 0 || i >= n || j < 0 || j >= n || grid[i][j] == 0 || csize[i][j] != -1) continue;
                 csize[i][j] = cs;
-                cno[i][j] = cn;
+                grid[i][j] = cn;
 
                 que.push({i+1, j});
                 que.push({i-1, j});
@@ -108,4 +107,3 @@ public:
         return ans;
     }
 };
-
