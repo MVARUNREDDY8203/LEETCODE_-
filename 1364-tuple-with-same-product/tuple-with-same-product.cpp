@@ -5,7 +5,12 @@ public:
         if (i < 2) return 1;
         if (fact_cache.count(i)) return fact_cache[i];
 
-        return fact_cache[i] = i * fact(i-1);
+        long long int ans = 1;
+        for (int j=i; j>=2; j--) {
+            ans *= j;
+        }
+        
+        return fact_cache[i] = ans;
     }
     map<pair<int, int>, long long int> comb_cache;
     int combination(int n, int c) {
