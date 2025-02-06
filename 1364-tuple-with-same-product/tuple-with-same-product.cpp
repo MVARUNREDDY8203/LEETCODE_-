@@ -7,8 +7,11 @@ public:
 
         return fact_cache[i] = i * fact(i-1);
     }
+    map<pair<int, int>, long long int> comb_cache;
     int combination(int n, int c) {
-        return fact(n) / (fact(n-c) * fact(c));
+        if (comb_cache.count({n, c})) return comb_cache[{n, c}];
+
+        return comb_cache[{n, c}] = fact(n) / (fact(n-c) * fact(c));
     }
     int tupleSameProduct(vector<int>& nums) {
         int n = nums.size();
@@ -23,7 +26,6 @@ public:
         int ans = 0;
         for (auto it: ump) {
             if (it.second < 2) continue;
-            cout<<it.first<<" "<<it.second<<endl;
             ans += combination(it.second, 2) * 8;
         }
 
