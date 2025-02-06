@@ -14,6 +14,7 @@ public:
         return comb_cache[{n, c}] = fact(n) / (fact(n-c) * fact(c));
     }
     int tupleSameProduct(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
         int n = nums.size();
         unordered_map<long long int, int> ump;
         for (int i=0; i<n; i++) {
