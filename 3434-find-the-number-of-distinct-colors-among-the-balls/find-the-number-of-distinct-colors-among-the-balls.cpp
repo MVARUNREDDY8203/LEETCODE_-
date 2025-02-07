@@ -5,19 +5,23 @@ public:
         unordered_map<int, int> c_count;
 
         vector<int> ans;
+        int cnt = 0;
         for (auto q : queries) {
-            if (ball_c.count(q[0])) {   // if a color already exists
-                c_count[ball_c[q[0]]]--;    // decrement prev color
-                if (c_count[ball_c[q[0]]] <= 0) c_count.erase(ball_c[q[0]]);
-                ball_c[q[0]] = q[1];   // set new color
-                c_count[q[1]]++;    // incr new color
-            }
-            else {
-                ball_c[q[0]] = q[1];
-                c_count[ball_c[q[0]]]++;
-            }
+            int curr_ball = q[0];
+            int new_color = q[1];
 
-            ans.push_back(c_count.size());
+            if (ball_c.count(curr_ball)) {
+                int prev_color = ball_c[curr_ball];
+
+                c_count[prev_color]--;
+                if (c_count[prev_color] == 0) cnt--;
+            } 
+
+            ball_c[curr_ball] = new_color;
+            c_count[new_color]++;
+            if(c_count[new_color] == 1) cnt++;
+
+            ans.push_back(cnt);
         }
 
         return ans;
