@@ -6,11 +6,10 @@ public:
     }
     int maximumSum(vector<int>& nums) {
         int n = nums.size();
-        // unordered_map<int, priority_queue<int>> sum_digs_to_nums;
         vector<priority_queue<int>> sum_digs_to_nums(100);
 
-        for (int i=0; i<n; i++) {
-            sum_digs_to_nums[sum_of_digs(nums[i])].push(nums[i]);
+        for (auto i: nums) {
+            sum_digs_to_nums[sum_of_digs(i)].push(i);
         }
 
         int ans = -1;
